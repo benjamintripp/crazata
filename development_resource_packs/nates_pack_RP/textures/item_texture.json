@@ -1,0 +1,27 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"master_sword": {
+			"textures": "textures/items/master_sword"
+		},
+		"one_sword": {
+			"textures": "textures/items/one_sword"
+		},
+		"pow_sword": {
+			"textures": "textures/items/pow_sword"
+		},
+		"thunder_blade": {
+			"textures": "textures/items/thunder_blade"
+		},
+		"chicken_sword": {
+			"textures": "textures/items/chicken_sword"
+		},
+		"ultra_sword": {
+			"textures": "textures/items/ultra_sword"
+		},
+		"power_sword": {
+			"textures": "textures/items/power_sword"
+		}
+	}
+}

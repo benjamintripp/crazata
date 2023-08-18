@@ -1,0 +1,52 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wiki:power_sword",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"damage_chance": {
+					"min": 0,
+					"max": 1
+			},
+				"max_durability": 2147483647
+			},
+			"minecraft:damage": 2147483647,
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "sword"
+			},
+			"minecraft:icon": {
+				"texture": "power_sword"
+			},
+			"minecraft:display_name": {
+				"value": "Power Sword"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "wiki:power_sword.slime"
+				}
+			}
+		},
+		"events": {
+			"wiki:power_sword.slime": {
+				"sequence":[
+					{
+						"run_command":{
+							"command":[
+								"setblock ^ ^2 ^1 slime"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}
