@@ -22,6 +22,9 @@
 		},
 		"power_sword": {
 			"textures": "textures/items/power_sword"
+		},
+		"rainbow_sword": {
+			"textures": "textures/items/rainbow_sword"
 		}
 	}
 }
