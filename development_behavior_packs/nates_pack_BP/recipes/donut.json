@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "wiki:donut"
+		},
+		"tags": [
+			"cooking_table"
+		],
+		"pattern": [
+			" W ",
+			"WSW".
+            " W "
+		],
+		"key": {
+			"W": {
+				"item": "minecraft:wheat"
+			},
+			"S": {
+				"item": "minecraft:sugar"
+			}
+		},
+		"result": [
+			{
+				"item": "wiki:donut"
+			}
+		]
+	}
+}
