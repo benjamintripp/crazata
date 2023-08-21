@@ -25,6 +25,9 @@
 		},
 		"rainbow_sword": {
 			"textures": "textures/items/rainbow_sword"
-		}
+		},
+		"donut": {
+			"textures": "textures/items/donut"
+		},
 	}
 }
