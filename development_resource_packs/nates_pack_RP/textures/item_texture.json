@@ -29,5 +29,8 @@
 		"donut": {
 			"textures": "textures/items/donut"
 		},
+		"ritz": {
+			"textures": "textures/items/ritz"
+		}
 	}
 }
