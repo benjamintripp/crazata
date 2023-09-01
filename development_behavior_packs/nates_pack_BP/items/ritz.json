@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "wiki:ritz",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:use_duration": 1.5,
+			"minecraft:max_stack_size": 64,
+			"minecraft:food": {
+				"nutrition": 2,
+				"can_always_eat": false,
+				"saturation_modifier": "normal"
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:icon": {
+				"texture": "ritz"
+			},
+			"minecraft:display_name": {
+				"value": "ritz cracker"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.cookedFood"
+			}
+		},
+		"events": {}
+	}
+}
