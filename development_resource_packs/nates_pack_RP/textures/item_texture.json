@@ -28,6 +28,6 @@
 		},
 		"donut": {
 			"textures": "textures/items/donut"
-		},
+		}
 	}
 }
