@@ -2,18 +2,21 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "nate:chicken_sword",
+			"identifier": "nate:bee_blade",
 			"category": "equipment"
 		},
 		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
 			"minecraft:durability": {
 				"damage_chance": {
-					"min": 0,
-					"max": 1
+					"min": 1,
+					"max": 25
 			},
-				"max_durability": 2147483647
+				"max_durability": 25
 			},
 			"minecraft:damage": 10,
 			"minecraft:enchantable": {
@@ -21,24 +24,28 @@
 				"slot": "sword"
 			},
 			"minecraft:icon": {
-				"texture": "chicken_sword"
+				"texture": "bee_blade"
 			},
 			"minecraft:display_name": {
-				"value": "Chicken Sword"
+				"value": "Bee Blade"
 			},
 			"minecraft:weapon": {
 				"on_hurt_entity": {
-					"event": "nate:chicken_sword.egg"
+					"event": "nate:bee_blade.buzz"
+				},
+				"on_hit_block": {
+					"event": "nate:bee_blade.buzz"
 				}
 			},
-			"minecraft:on_use":{
-				"on_use": {
-					"event": "nate:chicken_sword.shoot_egg"
+			"minecraft:on_use_on":{
+				"on_use_on": {
+					"event": "nate:bee_blade.buzz",
+					"target": "block"
 				}
 			}
 		},
 		"events": {
-			"nate:chicken_sword.egg": {
+			"nate:bee_blade.buzz": {
 				"sequence":[
 					{
 						"randomize": [
@@ -46,22 +53,16 @@
 								"weight": 1,
 								"run_command":{
 									"command":[
-										"summon chicken ^ ^2 ^"
+										"summon bee ^ ^2 ^"
 									]
 								}
 							},
 							{
-								"weight": 3
+								"weight": 4
 							}
 						]
 					}
 				]
-			},
-			"nate:chicken_sword.shoot_egg": {
-				"shoot": {
-					"projectile": "minecraft:egg",
-					"launch_power": 1
-				}
 			}
 		}
 	}

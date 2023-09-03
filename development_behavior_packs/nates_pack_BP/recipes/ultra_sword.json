@@ -2,7 +2,7 @@
 	"format_version": "1.12.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "wiki:ultra_sword"
+			"identifier": "nate:ultra_sword"
 		},
 		"tags": ["crafting_table"],
 		"pattern": ["e", "E", "#"],
@@ -18,7 +18,7 @@
 			}
 		},
 		"result": {
-			"item": "wiki:ultra_sword"
+			"item": "nate:ultra_sword"
 		}
 	}
 }

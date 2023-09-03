@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "wiki:ritz",
+			"identifier": "nate:ritz",
 			"category": "equipment"
 		},
 		"components": {

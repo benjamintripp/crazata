@@ -31,6 +31,9 @@
 		},
 		"ritz": {
 			"textures": "textures/items/ritz"
+		},
+		"bee_blade": {
+			"textures": "textures/items/bee_blade"
 		}
 	}
 }

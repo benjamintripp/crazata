@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "nate:power_sword",
+			"identifier": "nate:chicken_sword",
 			"category": "equipment"
 		},
 		"components": {
@@ -18,34 +18,53 @@
 			},
 				"max_durability": 2147483647
 			},
-			"minecraft:damage": 2147483647,
+			"minecraft:damage": 10,
 			"minecraft:enchantable": {
 				"value": 10,
 				"slot": "sword"
 			},
 			"minecraft:icon": {
-				"texture": "power_sword"
+				"texture": "chicken_sword"
 			},
 			"minecraft:display_name": {
-				"value": "Power Sword"
+				"value": "Chicken Sword"
 			},
 			"minecraft:weapon": {
 				"on_hurt_entity": {
-					"event": "nate:power_sword.slime"
+					"event": "nate:chicken_sword.egg"
+				}
+			},
+			"minecraft:on_use":{
+				"on_use": {
+					"event": "nate:chicken_sword.shoot_egg"
 				}
 			}
 		},
 		"events": {
-			"nate:power_sword.slime": {
+			"nate:chicken_sword.egg": {
 				"sequence":[
 					{
-						"run_command":{
-							"command":[
-								"setblock ^ ^2 ^1 slime"
-							]
-						}
+						"randomize": [
+							{
+								"weight": 1,
+								"run_command":{
+									"command":[
+										"summon chicken ^ ^2 ^"
+									]
+								}
+							},
+							{
+								"weight": 3
+							}
+						]
 					}
 				]
+			},
+			"nate:chicken_sword.shoot_egg": {
+				"shoot": {
+					"projectile": "minecraft:egg",
+					"launch_power": 1
+				}
 			}
 		}
 	}

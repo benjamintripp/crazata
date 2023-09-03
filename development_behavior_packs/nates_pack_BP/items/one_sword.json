@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "wiki:one_sword",
+			"identifier": "nate:one_sword",
 			"category": "equipment"
 		},
 		"components": {

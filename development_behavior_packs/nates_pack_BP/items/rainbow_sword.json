@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "wiki:rainbow_sword",
+			"identifier": "nate:rainbow_sword",
 			"category": "equipment"
 		},
 		"components": {
@@ -31,12 +31,12 @@
 			},
 			"minecraft:weapon": {
 				"on_hurt_entity": {
-					"event": "wiki:rainbow_sword.color"
+					"event": "nate:rainbow_sword.color"
 				}
 			}
 		},
 		"events": {
-			"wiki:rainbow_sword.color": {
+			"nate:rainbow_sword.color": {
 				"sequence": [
 					{
 						"run_command": {
