@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nate:nether_wand",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:icon": {
+				"texture": "nether_wand"
+			},
+			"minecraft:display_name": {
+				"value": "Nether Wand"
+			},
+			"minecraft:on_use":{
+				"on_use": {
+					"event": "nate:nether_wand.portal"
+				}
+			}
+		},
+		"events": {
+			"nate:nether_wand.portal": {
+				"sequence":[
+					{
+						"run_command":{
+							"command":[
+								"setblock ^ ^2 ^5 portal"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

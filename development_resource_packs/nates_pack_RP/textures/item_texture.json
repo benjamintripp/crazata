@@ -34,6 +34,9 @@
 		},
 		"bee_blade": {
 			"textures": "textures/items/bee_blade"
+		},
+		"nether_wand": {
+			"textures": "textures/items/nether_wand"
 		}
 	}
 }
