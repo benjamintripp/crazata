@@ -1,2 +1,5 @@
 pack.name=Nate's Minecraft Resource Pack
 pack.description=Cool stuff made by Nate Tripp
+
+entity.nate:ear_bee.name=Ear Bee
+item.spawn_egg.entity.nate:ear_bee.name=Spawn Ear Bee

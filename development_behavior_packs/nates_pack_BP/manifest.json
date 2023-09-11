@@ -1,7 +1,7 @@
 {
 	"format_version": 2,
 	"header": {
-        "name": "pack.name",
+		"name": "pack.name",
 		"description": "pack.description",
 		"uuid": "ccd39639-c3f7-467d-9a79-18a974e1f98a",
 		"version": [1, 0, 0],
@@ -19,5 +19,10 @@
 			"uuid": "e5cbd3ce-8a65-4ecb-baaf-83e6b7c5866d",
 			"version": [1, 0, 0]
 		}
-	]
+	],
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.2.0"]
+		}
+	}
 }
