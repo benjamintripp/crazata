@@ -3,3 +3,5 @@ pack.description=Cool stuff made by Nate Tripp
 
 entity.nate:ear_bee.name=Ear Bee
 item.spawn_egg.entity.nate:ear_bee.name=Spawn Ear Bee
+entity.nate:shark.name=Shark
+item.spawn_egg.entity.nate:shark.name=Spawn Shark
