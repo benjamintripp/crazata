@@ -5,3 +5,5 @@ entity.nate:ear_bee.name=Ear Bee
 item.spawn_egg.entity.nate:ear_bee.name=Spawn Ear Bee
 entity.nate:shark.name=Shark
 item.spawn_egg.entity.nate:shark.name=Spawn Shark
+entity.nate:ender_chicken.name=Ender Chicken
+item.spawn_egg.entity.nate:ender_chicken.name=Spawn Ender Chicken
