@@ -2,7 +2,7 @@
 	"format_version": "1.16.0",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "myname:mega_chicken",
+			"identifier": "nate:mega_chicken",
 			"runtime_identifier": "minecraft:chicken",
 			"is_spawnable": true,
 			"is_summonable": true,
@@ -38,8 +38,8 @@
 				"minecraft:breedable": {
 					"require_tame": false,
 					"breeds_with": {
-						"mate_type": "myname:mega_chicken",
-						"baby_type": "myname:mega_chicken",
+						"mate_type": "nate:mega_chicken",
+						"baby_type": "nate:mega_chicken",
 						"breed_event": {
 							"event": "minecraft:entity_born",
 							"target": "baby"
