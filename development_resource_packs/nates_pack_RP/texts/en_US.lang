@@ -11,3 +11,5 @@ entity.nate:mega_chicken.name=Mega Chicken
 item.spawn_egg.entity.nate:mega_chicken.name=Spawn Mega Chicken
 entity.nate:peach.name=Peach
 item.spawn_egg.entity.nate:peach.name=Spawn Peach
+entity.nate:speedy_turtle.name=Speedy Turtle
+item.spawn_egg.entity.nate:speedy_turtle.name=Spawn Speedy Turtle

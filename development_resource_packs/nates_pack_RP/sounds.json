@@ -1,6 +1,36 @@
 {
 	"entity_sounds": {
 		"entities": {
+			"nate:speedy_turtle": {
+				"events": {
+					"ambient": "mob.turtle.ambient",
+					"born": {
+						"pitch": 1,
+						"sound": "mob.turtle_baby.born",
+						"volume": 1
+					},
+					"death": "mob.turtle.death",
+					"death.baby": "mob.turtle_baby.death",
+					"hurt": "mob.turtle.hurt",
+					"hurt.baby": "mob.turtle_baby.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.turtle.step",
+						"volume": 1
+					},
+					"step.baby": {
+						"pitch": 1,
+						"sound": "mob.turtle_baby.step",
+						"volume": 1
+					},
+					"swim": {
+						"pitch": [0.6, 1.4],
+						"sound": "mob.turtle.swim"
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
 			"nate:peach": {
 				"events": {
 					"ambient": "mob.wolf.bark",
