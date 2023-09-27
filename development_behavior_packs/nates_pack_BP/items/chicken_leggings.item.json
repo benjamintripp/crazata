@@ -2,7 +2,7 @@
 	"format_version": "1.20.20",
 	"minecraft:item": {
 		"description": {
-			"identifier": "myname:chicken_leggings",
+			"identifier": "nate:chicken_leggings",
 			"menu_category": {
 				"category": "equipment",
 				"group": "itemGroup.name.leggings"
