@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+		"identifier": "nate:chicken_chestplate"
+		},
+	
+		
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"X X",
+			"XXX",
+			"XXX"
+		],
+		"key": {
+		  "X": {
+			"item": "nate:chicken_ingot"
+		  }
+		},
+		"result": {
+		  "item": "nate:chicken_chestplate"
+		}
+	  }
+}

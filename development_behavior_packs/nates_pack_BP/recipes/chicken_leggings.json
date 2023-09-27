@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+		"identifier": "nate:chicken_leggings"
+		},
+	
+		
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"XXX",
+			"X X",
+			"X X"
+		],
+		"key": {
+		  "X": {
+			"item": "nate:chicken_ingot"
+		  }
+		},
+		"result": {
+		  "item": "nate:chicken_leggings"
+		}
+	  }
+}
