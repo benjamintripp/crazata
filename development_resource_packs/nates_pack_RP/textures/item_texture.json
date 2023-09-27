@@ -1,7 +1,23 @@
 {
-	"resource_pack_name": "vanilla",
-	"texture_name": "atlas.items",
 	"texture_data": {
+		"powy": {
+			"textures": "textures/items/powy.png"
+		},
+		"chicken_boots": {
+			"textures": "textures/items/chicken_boots.png"
+		},
+		"chicken_leggings": {
+			"textures": "textures/items/chicken_leggings.png"
+		},
+		"chicken_chestplate": {
+			"textures": "textures/items/chicken_chestplate.png"
+		},
+		"chicken_helmet": {
+			"textures": "textures/items/chicken_helmet.png"
+		},
+		"chicken_ingot": {
+			"textures": "textures/items/chicken_ingot.png"
+		},
 		"master_sword": {
 			"textures": "textures/items/master_sword"
 		},
@@ -41,5 +57,7 @@
 		"arrow_sword": {
 			"textures": "textures/items/arrow_sword"
 		}
-	}
+	},
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items"
 }

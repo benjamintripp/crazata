@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+		"identifier": "nate:chicken_helmet"
+		},
+	
+		
+		"tags": [ "crafting_table" ],
+		"pattern": [
+		  "XXX",
+		  "X X"
+		],
+		"key": {
+		  "X": {
+			"item": "nate:chicken_ingot"
+		  }
+		},
+		"result": {
+		  "item": "nate:chicken_helmet"
+		}
+	  }
+}
