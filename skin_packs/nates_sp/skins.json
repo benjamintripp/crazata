@@ -1,0 +1,12 @@
+{
+    "serialize_name": "CrazataSkinPack",
+    "localization_name": "CrazataSkinPack",
+    "skins": [
+      {
+        "localization_name": "Benjamin",
+        "geometry": "geometry.humanoid.custom",
+        "texture": "ben.png",
+        "type": "free"
+      }
+    ]
+  }

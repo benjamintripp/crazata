@@ -1,0 +1,15 @@
+{
+    "header": {
+      "name": "Crazata Skin Pack",
+      "version": [1, 0, 0],
+      "uuid": "a360af1c-db41-460d-a39b-808e19b2d159"
+    },
+    "modules": [
+      {
+        "version": [1, 0, 0],
+        "type": "skin_pack",
+        "uuid": "1b41bacd-4ae7-455b-a5fc-60197ed0f384"
+      }
+    ],
+    "format_version": 1
+  }
