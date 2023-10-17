@@ -7,6 +7,18 @@
         "geometry": "geometry.humanoid.custom",
         "texture": "ben.png",
         "type": "free"
+      },
+      {
+        "localization_name": "Nate",
+        "geometry": "geometry.humanoid.custom",
+        "texture": "nate.png",
+        "type": "free"
+      },
+      {
+        "localization_name": "Jack",
+        "geometry": "geometry.humanoid.custom",
+        "texture": "jack.png",
+        "type": "free"
       }
     ]
   }

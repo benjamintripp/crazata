@@ -24,3 +24,5 @@ action.hint.exit.nate:tall_pig=Tap sneak to dismount
 item.nate:powy=Powy
 item.nate:testboots=testboots
 item.nate:testlegging=testlegging
+entity.nate:cheetah.name=Funky Cheetah
+item.spawn_egg.entity.nate:cheetah.name=Spawn Funky Cheetah

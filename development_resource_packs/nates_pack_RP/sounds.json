@@ -1,6 +1,19 @@
 {
 	"entity_sounds": {
 		"entities": {
+			"nate:cheetah": {
+				"events": {
+					"ambient": "mob.ocelot.idle",
+					"death": "mob.ocelot.death",
+					"eat": "mob.cat.eat",
+					"hurt": {
+						"sound": "mob.cat.hit",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
 			"nate:tall_pig": {
 				"events": {
 					"ambient": "mob.pig.say",
