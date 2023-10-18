@@ -5,34 +5,87 @@ Welcome to Crazata: Nate and Jack's (and Dad's) Minecraft addon for Minecraft Be
 ## New Entities
 
 __Ear Bee__
+
 A bee with ears
 ![Ear Bee](screenshots/ear_bee.png)
 
 __Ender Chicken__
+
 A chicken from The End
 ![Ender Chicken](screenshots/ender_chicken.png)
 
 __Mega Chicken__
+
 A chicken so big you can ride it
 ![Mega Chicken](screenshots/mega_chicken.png)
 
 __Peach__
+
 Our dog peach
 ![Peach](screenshots/peach.png)
 
 __Shark__
+
 A scary shark
 ![Shark](screenshots/shark.png)
 
 __Speedy Turtle__
+
 A tutle with rocket boosters so it moves super fast.
 ![Speedy Turtle](screenshots/speedy_turtle.png)
 
 __Tall Pig__
+
 A really tall pig
 ![Tall Pig](screenshots/tall_pig.png)
 
+__Funky Cheetah__
+
+A cheetah that moves kind of funky
+![Funky Cheetah](screenshots/cheetah.png)
+
+
 ## New Swords
-|  ![Bee Blade](development_resource_packs/nates_pack_RP/textures/items/bee_blade.png) |   |
-|---|---|
-|   |   |
+![Swords](screenshots/swords.png)
+
+- Arrow Sword: Shoots arrows
+- Bee Blade: Summons bees
+- Chicken Sword: Shoots eggs, sometimes summons chickens
+- Master Sword
+- One Sword: Super powerful but breaks after one hit
+- Pow Sword: Turns the block you are standing on into water
+- Power Sword: Creates a slime block
+- Powy: Turns the block you are standing on into lava
+- Rainbow Sword: Creates a wool rainbow
+- Thunder Blade: Lightning strikes whatever mob you hit
+- Ultra Sword: Creates a block of ice
+
+## New Food
+![Food](screenshots/food.png)
+- Donut
+- Ritz Cracker (not sure why it is giant)
+
+## New Skins
+
+__Benjamin__
+![Benjamin](screenshots/benjaminskin.png)
+
+__Nate__
+![Nate](screenshots/nateskin.png)
+
+__Jack__
+![Jack](screenshots/jackskin.png)
+
+## Other New Stuff
+
+__Nether Wand__
+![Nether Wand](screenshots/netherwand.png)
+
+__Chicken Armor__
+![Chicken Armor](screenshots/chickenarmor.png)
+
+
+
+## TODO
+- Make everything craftable
+- Micro chicken
