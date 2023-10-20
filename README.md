@@ -1,8 +1,14 @@
 ![Crazata](screenshots/title.png)
 
-Welcome to Crazata: Nate and Jack's (and Dad's) Minecraft addon for Minecraft Bedrock Edition
+Welcome to Crazata: Nate and Jack's (and Dad's) addon for Minecraft Bedrock Edition
 
-## New Entities
+## How To Install
+The crazata.mcaddon file can be downloaded from the release link on the right.
+
+Direction how to install an addon can be found [here](https://learn.microsoft.com/en-us/minecraft/creator/documents/addonpackinstallation?tabs=Windows10).
+
+
+## New Mobs
 
 __Ear Bee__
 
@@ -82,6 +88,7 @@ __Nether Wand__
 ![Nether Wand](screenshots/netherwand.png)
 
 __Chicken Armor__
+
 ![Chicken Armor](screenshots/chickenarmor.png)
 
 
