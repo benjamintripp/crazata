@@ -7,6 +7,10 @@ The crazata.mcaddon file can be downloaded from the release link on the right.
 
 Direction how to install an addon can be found [here](https://learn.microsoft.com/en-us/minecraft/creator/documents/addonpackinstallation?tabs=Windows10).
 
+When creating a world with the addon enabled you need to enable `Holiday Creator Features` in the `Experiments` section.
+
+![Holiday Creator Features](screenshots/install.png)
+
 
 ## New Mobs
 
@@ -37,7 +41,7 @@ A scary shark
 
 __Speedy Turtle__
 
-A tutle with rocket boosters so it moves super fast.
+A turtle with rocket boosters so it moves super fast.
 ![Speedy Turtle](screenshots/speedy_turtle.png)
 
 __Tall Pig__
