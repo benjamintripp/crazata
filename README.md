@@ -59,6 +59,11 @@ __Micro Chicken__
 A really tiny chicken
 ![Micro Chicken](screenshots/micro_chicken.png)
 
+__Netherite Golem__
+
+A golem made of netherite
+![Netherite Golem](screenshots/netherite_golem.png)
+
 
 ## New Swords
 ![Swords](screenshots/swords.png)
