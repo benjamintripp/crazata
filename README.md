@@ -54,6 +54,11 @@ __Funky Cheetah__
 A cheetah that moves kind of funky
 ![Funky Cheetah](screenshots/cheetah.png)
 
+__Micro Chicken__
+
+A really tiny chicken
+![Micro Chicken](screenshots/micro_chicken.png)
+
 
 ## New Swords
 ![Swords](screenshots/swords.png)
@@ -99,4 +104,3 @@ __Chicken Armor__
 
 ## TODO
 - Make everything craftable
-- Micro chicken
