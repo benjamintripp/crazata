@@ -1,0 +1,59 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nate:dadmobile",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:movement.amphibious": {
+				"max_turn": 15.0
+			  },
+			  "minecraft:movement": {
+				"value": 0.7
+			  },
+			  "minecraft:underwater_movement": {
+				"value": 0.7
+			  },
+			  "minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"avoid_water": true
+			  },
+			"minecraft:water_movement": {
+				"drag_factor": 0.5
+			},
+			"minecraft:collision_box": {
+				"height": 1,
+				"width": 1.2
+			},
+			"minecraft:can_power_jump": {
+			},
+
+			"minecraft:input_ground_controlled": {},
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"seats": [
+					{
+						"position": [0, 0.25, 0]
+					}
+				]
+			},
+			"minecraft:variable_max_auto_step": {
+				"base_value": 1.2,
+				"controlled_value": 1.2
+			}
+		}
+	}
+}

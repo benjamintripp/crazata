@@ -64,6 +64,10 @@ __Netherite Golem__
 A golem made of netherite
 ![Netherite Golem](screenshots/netherite_golem.png)
 
+__Dadmobile__
+
+Dad's wicked cool car
+![Dadmobile](screenshots/dadmobile.gif)
 
 ## New Swords
 ![Swords](screenshots/swords.png)

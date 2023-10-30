@@ -30,3 +30,5 @@ entity.nate:micro_chicken.name=Micro Chicken
 item.spawn_egg.entity.nate:micro_chicken.name=Spawn Micro Chicken
 entity.nate:netherite_golem.name=Netherite Golem
 item.spawn_egg.entity.nate:netherite_golem.name=Spawn Netherite Golem
+entity.nate:dadmobile.name=Dadmobile
+item.spawn_egg.entity.nate:dadmobile.name=Spawn Dadmobile
