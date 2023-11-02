@@ -69,6 +69,12 @@ __Dadmobile__
 Dad's wicked cool car
 ![Dadmobile](screenshots/dadmobile.gif)
 
+__Hover Cycle__
+
+A hoverbike
+![Hover Cycle](screenshots/hover_cycle.gif)
+
+
 ## New Swords
 ![Swords](screenshots/swords.png)
 

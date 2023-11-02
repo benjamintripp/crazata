@@ -1,0 +1,32 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nate:hover_cycle",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/hover_cycle"
+			},
+			"geometry": {
+				"default": "geometry.hover_cycle"
+			},
+			"render_controllers": ["controller.render.default"],
+			"animations": {
+				"drive": "animation.hover_cycle.drive",
+				"hover": "animation.hover_cycle.hover"
+			},
+			"scripts": {
+				"initialize": ["variable.steering = 0;"],
+				"pre_animation": ["query.has_rider ? (variable.steering = Math.lerp(variable.steering, query.yaw_speed, 0.15));"],
+				"animate": ["drive", "hover"]
+			},
+			
+			"spawn_egg": {
+				"base_color": "#b5dc37",
+				"overlay_color": "#915525"
+			}
+		}
+	}
+}
