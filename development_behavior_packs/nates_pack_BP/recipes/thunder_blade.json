@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nate:thunder_blade"
+		},
+		"tags": ["crafting_table"],
+		"pattern": ["E", "E", "#"],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"E": {
+				"item": "minecraft:lightning_rod"
+			}
+		},
+		"result": {
+			"item": "nate:thunder_blade"
+		}
+	}
+}

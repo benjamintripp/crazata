@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nate:bee_blade"
+		},
+		"tags": ["crafting_table"],
+		"pattern": ["E", "E", "#"],
+		"key": {
+			"#": {
+				"item": "minecraft:honeycomb"
+			},
+			"E": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "nate:bee_blade"
+		}
+	}
+}
