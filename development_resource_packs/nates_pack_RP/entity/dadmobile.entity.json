@@ -1,0 +1,30 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nate:dadmobile",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/dadmobile"
+			},
+			"geometry": {
+				"default": "geometry.dadmobile"
+			},
+			"render_controllers": ["controller.render.default"],
+			"animations": {
+				"drive": "animation.dadmobile.drive"
+			},
+			"scripts": {
+				"initialize": ["variable.steering = 0;"],
+				"pre_animation": ["query.has_rider ? (variable.steering = Math.lerp(variable.steering, query.yaw_speed, 0.15));"],
+				"animate": ["drive"]
+			},
+			"spawn_egg": {
+				"base_color": "#f7f7f7",
+				"overlay_color": "#af2910"
+			}
+		}
+	}
+}

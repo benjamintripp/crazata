@@ -54,6 +54,26 @@ __Funky Cheetah__
 A cheetah that moves kind of funky
 ![Funky Cheetah](screenshots/cheetah.png)
 
+__Micro Chicken__
+
+A really tiny chicken
+![Micro Chicken](screenshots/micro_chicken.png)
+
+__Netherite Golem__
+
+A golem made of netherite
+![Netherite Golem](screenshots/netherite_golem.png)
+
+__Dadmobile__
+
+Dad's wicked cool car
+![Dadmobile](screenshots/dadmobile.gif)
+
+__Hover Cycle__
+
+A hoverbike
+![Hover Cycle](screenshots/hover_cycle.gif)
+
 
 ## New Swords
 ![Swords](screenshots/swords.png)
@@ -98,5 +118,7 @@ __Chicken Armor__
 
 
 ## TODO
-- Make everything craftable
-- Micro chicken
+- Mechs?
+- Hover Car
+- Chicken Man
+- Chicken Dragon

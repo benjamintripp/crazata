@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nate:nether_wand"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"WWW",
+			"WSW",
+            "WWW"
+		],
+		"key": {
+			"W": {
+				"item": "minecraft:obsidian"
+			},
+			"S": {
+				"item": "minecraft:flint_and_steel"
+			}
+		},
+		"result": [
+			{
+				"item": "nate:nether_wand"
+			}
+		]
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hover_cycle.drive": {
+			"loop": true,
+			"animation_length": 47.125,
+			"bones": {
+				"wheel_front_right": {
+					"rotation": [0, "query.modified_distance_moved * 20", 0]
+				},
+				"wheel_back_right": {
+					"rotation": [0, "query.modified_distance_moved * 20", 0]
+				},
+				"steering_wheel": {
+					"rotation": [2, 0, "variable.steering * -0.6"]
+				}
+			}
+		},
+		"animation.hover_cycle.hover": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0": [0, 2, 0],
+						"0.5": [0, 1, 0],
+						"1.0": [0, 2, 0]
+					}
+				}
+			}
+		}
+	}
+}
