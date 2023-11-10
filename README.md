@@ -118,4 +118,7 @@ __Chicken Armor__
 
 
 ## TODO
-- Make everything craftable
+- Mechs?
+- Hover Car
+- Chicken Man
+- Chicken Dragon
