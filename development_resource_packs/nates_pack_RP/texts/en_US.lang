@@ -32,3 +32,5 @@ entity.nate:dadmobile.name=Dadmobile
 item.spawn_egg.entity.nate:dadmobile.name=Spawn Dadmobile
 entity.nate:hover_cycle.name=Hover Cycle
 item.spawn_egg.entity.nate:hover_cycle.name=Spawn Hover Cycle
+entity.nate:hover_car.name=Hover Car
+item.spawn_egg.entity.nate:hover_car.name=Spawn Hover Car

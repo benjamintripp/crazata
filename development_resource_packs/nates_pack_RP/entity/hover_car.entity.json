@@ -1,0 +1,31 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nate:hover_car",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/hover_car"
+			},
+			"geometry": {
+				"default": "geometry.hover_car"
+			},
+			"render_controllers": ["controller.render.default"],
+			"animations": {
+				"drive": "animation.hover_car.drive",
+				"hover": "animation.hover_car.hover"
+			},
+			"scripts": {
+				"initialize": ["variable.steering = 0;"],
+				"pre_animation": ["query.has_rider ? (variable.steering = Math.lerp(variable.steering, query.yaw_speed, 0.15));"],
+				"animate": ["drive","hover"]
+			},
+			"spawn_egg": {
+				"base_color": "#0045ff",
+				"overlay_color": "#ff0000"
+			}
+		}
+	}
+}

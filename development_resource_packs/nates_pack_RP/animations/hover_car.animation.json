@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hover_car.drive": {
+			"loop": true,
+			"bones": {
+				"steering_wheel": {
+					"rotation": [0, 0, "variable.steering * -0.6"]
+				}
+			}
+		},
+		"animation.hover_car.hover": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0": [0, 2, 0],
+						"0.5": [0, 1, 0],
+						"1.0": [0, 2, 0]
+					}
+				}
+			}
+		}
+	}
+}
