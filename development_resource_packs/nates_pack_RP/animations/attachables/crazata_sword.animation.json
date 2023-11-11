@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.crazata_sword.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [54.39908, 47.94751, -118.10337],
+					"position": [3, 23, 4]
+				}
+			}
+		},
+		"animation.crazata_sword.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [90, 0, 0],
+					"position": [0.5, 22.5, -0.5]
+				}
+			}
+		}
+	}
+}

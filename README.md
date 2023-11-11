@@ -64,6 +64,8 @@ __Netherite Golem__
 A golem made of netherite
 ![Netherite Golem](screenshots/netherite_golem.png)
 
+## New Vehicles
+
 __Dadmobile__
 
 Dad's wicked cool car
@@ -74,9 +76,16 @@ __Hover Cycle__
 A hoverbike
 ![Hover Cycle](screenshots/hover_cycle.gif)
 
+__Hover Car__
+
+A hover car that can really jump
+![Hover Car](screenshots/hover_car.gif)
+
 
 ## New Swords
 ![Swords](screenshots/swords.png)
+
+![Crazata Sword](screenshots/crazata_sword.png)
 
 - Arrow Sword: Shoots arrows
 - Bee Blade: Summons bees
@@ -89,6 +98,7 @@ A hoverbike
 - Rainbow Sword: Creates a wool rainbow
 - Thunder Blade: Lightning strikes whatever mob you hit
 - Ultra Sword: Creates a block of ice
+- Crazata Sword: Official sword of Crazata
 
 ## New Food
 ![Food](screenshots/food.png)

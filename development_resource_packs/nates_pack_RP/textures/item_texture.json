@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"crazata_sword": {
+			"textures": "textures/items/crazata_sword.png"
+		},
 		"powy": {
 			"textures": "textures/items/powy.png"
 		},
