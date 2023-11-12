@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"too_tall_hat": {
+			"textures": "textures/items/too_tall_hat.png"
+		},
 		"crazata_sword": {
 			"textures": "textures/items/crazata_sword.png"
 		},

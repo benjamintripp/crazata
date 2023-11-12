@@ -125,6 +125,9 @@ __Chicken Armor__
 
 ![Chicken Armor](screenshots/chickenarmor.png)
 
+__Too Tall Hat__
+
+![Too Tall Hat](screenshots/too_tall_hat.png)
 
 
 ## TODO
