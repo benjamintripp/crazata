@@ -36,3 +36,5 @@ entity.nate:hover_car.name=Hover Car
 item.spawn_egg.entity.nate:hover_car.name=Spawn Hover Car
 item.nate:crazata_sword=Crazata Sword
 item.nate:too_tall_hat=Too Tall Hat
+entity.nate:warrior.name=Warrior
+item.spawn_egg.entity.nate:warrior.name=Spawn Warrior

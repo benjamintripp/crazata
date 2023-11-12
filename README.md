@@ -64,6 +64,11 @@ __Netherite Golem__
 A golem made of netherite
 ![Netherite Golem](screenshots/netherite_golem.png)
 
+__Warrior__
+
+A fierce warrior
+![Warrior](screenshots/warrior.png)
+
 ## New Vehicles
 
 __Dadmobile__
