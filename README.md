@@ -86,6 +86,11 @@ __Hover Car__
 A hover car that can really jump
 ![Hover Car](screenshots/hover_car.gif)
 
+__Jackmobile__
+
+Jack's really fast car
+![Jackmobile](screenshots/jackmobile.png)
+
 
 ## New Swords
 ![Swords](screenshots/swords.png)
@@ -133,6 +138,14 @@ __Chicken Armor__
 __Too Tall Hat__
 
 ![Too Tall Hat](screenshots/too_tall_hat.png)
+
+__Chicken Pickaxe__
+
+![Chicken Pickaxe](screenshots/chicken_pickaxe.png)
+
+__Chicken Log__
+
+![Chicken Log](screenshots/chicken_log.png)
 
 
 ## TODO
