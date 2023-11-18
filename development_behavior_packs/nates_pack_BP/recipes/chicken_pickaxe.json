@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "nate:chicken_pickaxe"
+      },
+      
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        "XXX",
+        " # ",
+        " # "
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:stick"
+        },
+        "X": {
+          "tag": "nate:chicken_ingons"
+        }
+      },
+      "unlock": [
+        {
+          "item": "minecraft:stick"
+        }
+      ],
+      "result": {
+        "item": "nate:chicken_pickaxe"
+      }
+    }
+  }
+  

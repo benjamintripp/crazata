@@ -38,3 +38,6 @@ item.nate:crazata_sword=Crazata Sword
 item.nate:too_tall_hat=Too Tall Hat
 entity.nate:warrior.name=Warrior
 item.spawn_egg.entity.nate:warrior.name=Spawn Warrior
+entity.nate:jackmobile.name=Jackmobile
+item.spawn_egg.entity.nate:jackmobile.name=Spawn Jackmobile
+item.nate:chicken_pickax=Chicken Pickax

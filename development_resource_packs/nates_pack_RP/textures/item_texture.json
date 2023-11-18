@@ -62,6 +62,9 @@
 		},
 		"arrow_sword": {
 			"textures": "textures/items/arrow_sword"
+		},
+		"chicken_pickaxe": {
+			"textures": "textures/items/chicken_pickaxe.png"
 		}
 	},
 	"resource_pack_name": "vanilla",
