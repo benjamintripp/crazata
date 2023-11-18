@@ -16,7 +16,7 @@
           "item": "minecraft:stick"
         },
         "X": {
-          "tag": "nate:chicken_ingons"
+          "item": "nate:chicken_ingot"
         }
       },
       "unlock": [
