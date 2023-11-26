@@ -42,3 +42,5 @@ entity.nate:jackmobile.name=Jackmobile
 item.spawn_egg.entity.nate:jackmobile.name=Spawn Jackmobile
 item.nate:chicken_pickax=Chicken Pickax
 tile.nate:chicken_log.name=chicken log
+entity.nate:iron_mech.name=Iron Mech
+item.spawn_egg.entity.nate:iron_mech.name=Iron Mech

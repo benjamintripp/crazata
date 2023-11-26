@@ -74,7 +74,7 @@ A fierce warrior
 __Dadmobile__
 
 Dad's wicked cool car
-![Dadmobile](screenshots/dadmobile.gif)
+![Dadmobile](screenshots/dadmobile.png)
 
 __Hover Cycle__
 
@@ -90,6 +90,11 @@ __Jackmobile__
 
 Jack's really fast car
 ![Jackmobile](screenshots/jackmobile.png)
+
+__Iron Mech__
+
+A mech made from an iron golem
+![Iron Mech](screenshots/iron_mech.png)
 
 
 ## New Swords
@@ -149,7 +154,5 @@ __Chicken Log__
 
 
 ## TODO
-- Mechs?
-- Hover Car
 - Chicken Man
 - Chicken Dragon
