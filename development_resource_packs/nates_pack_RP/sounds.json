@@ -1,6 +1,21 @@
 {
 	"entity_sounds": {
 		"entities": {
+			"nate:chicken_man": {
+				"events": {
+					"ambient": "mob.endermen.idle",
+					"death": "mob.endermen.death",
+					"hurt": "mob.endermen.hit",
+					"mad": "mob.endermen.scream",
+					"stare": {
+						"pitch": 1,
+						"sound": "mob.endermen.stare",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
 			"nate:iron_mech": {
 				"events": {
 					"ambient": "mob.irongolem.say",

@@ -1,4 +1,7 @@
 {
+	"raw_saphire_ore": {
+		"sound": "amethyst_block"
+	},
 	"chicken_log": {
 		"sound": "wood"
 	}

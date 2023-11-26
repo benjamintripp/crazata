@@ -69,6 +69,11 @@ __Warrior__
 A fierce warrior
 ![Warrior](screenshots/warrior.png)
 
+__Chicken Man__
+
+Enderman from the overworld
+![Chicken Man](screenshots/chicken_man.png)
+
 ## New Vehicles
 
 __Dadmobile__
@@ -152,7 +157,16 @@ __Chicken Log__
 
 ![Chicken Log](screenshots/chicken_log.png)
 
+__Raw Saphire Ore__
+
+![Raw Saphire Ore](screenshots/raw_saphire_ore.png)
+
 
 ## TODO
-- Chicken Man
 - Chicken Dragon
+- Cheese
+- Wheel of Cheese
+- Cheese Car
+- Skeleton Armor
+- Santa Armor
+- Santa Ingot
