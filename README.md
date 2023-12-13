@@ -74,6 +74,12 @@ __Chicken Man__
 Enderman from the overworld
 ![Chicken Man](screenshots/chicken_man.png)
 
+__Nyx__
+
+Sam's dog Nyx (and Peach's best friend)
+![Nyx](screenshots/nyx.png)
+
+
 ## New Vehicles
 
 __Dadmobile__
