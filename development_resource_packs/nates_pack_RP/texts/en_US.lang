@@ -49,3 +49,5 @@ entity.nate:chicken_man.name=Chicken Man
 item.spawn_egg.entity.nate:chicken_man.name=Spawn Chicken Man
 entity.nate:nyx.name=Nyx
 item.spawn_egg.entity.nate:nyx.name=Spawn Nyx
+entity.nate:chicken_dragon.name=Chicken Dragon
+item.spawn_egg.entity.nate:chicken_dragon.name=Spawn Chicken Dragon

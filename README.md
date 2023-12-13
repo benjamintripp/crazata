@@ -79,6 +79,10 @@ __Nyx__
 Sam's dog Nyx (and Peach's best friend)
 ![Nyx](screenshots/nyx.png)
 
+__Chicken Dragon__
+
+A Chicken Dragon that flies with the power of Crazata
+![Chicken Dragon](screenshots/chicken_dragon.png)
 
 ## New Vehicles
 
