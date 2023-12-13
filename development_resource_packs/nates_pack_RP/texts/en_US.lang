@@ -47,3 +47,5 @@ item.spawn_egg.entity.nate:iron_mech.name=Iron Mech
 tile.nate:raw_saphire_ore.name=Raw Saphire Ore
 entity.nate:chicken_man.name=Chicken Man
 item.spawn_egg.entity.nate:chicken_man.name=Spawn Chicken Man
+entity.nate:nyx.name=Nyx
+item.spawn_egg.entity.nate:nyx.name=Spawn Nyx

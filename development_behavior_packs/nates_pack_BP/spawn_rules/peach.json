@@ -55,7 +55,16 @@
               "value": "cherry_grove"
             }
           ]
-        }
+        },
+        "minecraft:permute_type": [
+          {
+            "weight": 90
+          },
+          {
+            "weight": 10,
+            "entity_type": "nate:nyx"
+          }
+        ]
       }
     ]
   }
