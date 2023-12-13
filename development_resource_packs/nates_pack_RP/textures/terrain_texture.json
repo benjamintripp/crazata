@@ -1,0 +1,14 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"raw_saphire_ore": {
+			"textures": "textures/blocks/raw_saphire_ore.png"
+		},
+		"chicken_log": {
+			"textures": "textures/blocks/chicken_log.png"
+		}
+	}
+}

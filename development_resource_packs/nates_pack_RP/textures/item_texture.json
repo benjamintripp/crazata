@@ -1,5 +1,14 @@
 {
 	"texture_data": {
+		"iron_mech_spawn_egg": {
+			"textures": ["textures/items/iron_mech_spawn_egg"]
+		},
+		"too_tall_hat": {
+			"textures": "textures/items/too_tall_hat.png"
+		},
+		"crazata_sword": {
+			"textures": "textures/items/crazata_sword.png"
+		},
 		"powy": {
 			"textures": "textures/items/powy.png"
 		},
@@ -56,6 +65,9 @@
 		},
 		"arrow_sword": {
 			"textures": "textures/items/arrow_sword"
+		},
+		"chicken_pickaxe": {
+			"textures": "textures/items/chicken_pickaxe.png"
 		}
 	},
 	"resource_pack_name": "vanilla",

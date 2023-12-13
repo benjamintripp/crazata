@@ -1,0 +1,86 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nate:hover_car",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:collision_box": {
+				"height": 1,
+				"width": 1.2
+			},
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"seats": [
+					{
+						"position": [0, 0.25, 0]
+					}
+				]
+			},
+			"minecraft:movement": {
+				"value": 0.9
+			},
+			"minecraft:behavior.controlled_by_player": {
+				"priority": 0
+			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:behavior.mount_pathing": {
+				"priority": 2,
+				"speed_multiplier": 1,
+				"target_dist": 4,
+				"track_target": true
+			},
+			"minecraft:behavior.player_ride_tamed": {},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false,
+						"cause": "fall"
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 50
+			},
+			"minecraft:water_movement": {
+				"drag_factor": 0.1
+			},
+			"minecraft:underwater_movement": {
+				"value": 0.9
+			},
+			"minecraft:can_power_jump": {},
+			"minecraft:horse.jump_strength": {
+				"value": 10
+			},
+			"minecraft:nameable": {},
+			"minecraft:inventory": {
+				"container_type": "minecart_chest",
+				"inventory_size": 27
+			},
+			"minecraft:is_dyeable":{
+				"interact_text": "action.interact.dye"
+			},
+			"minecraft:movement.jump": {},
+			"minecraft:jump.dynamic": {},
+			"minecraft:can_climb": {},
+			"minecraft:variable_max_auto_step": {
+				"base_value": 1.2,
+				"controlled_value": 1.2
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/hover_car.json"
+			}
+		}
+	}
+}

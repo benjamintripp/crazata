@@ -64,19 +64,54 @@ __Netherite Golem__
 A golem made of netherite
 ![Netherite Golem](screenshots/netherite_golem.png)
 
+__Warrior__
+
+A fierce warrior
+![Warrior](screenshots/warrior.png)
+
+__Chicken Man__
+
+Enderman from the overworld
+![Chicken Man](screenshots/chicken_man.png)
+
+__Nyx__
+
+Sam's dog Nyx (and Peach's best friend)
+![Nyx](screenshots/nyx.png)
+
+
+## New Vehicles
+
 __Dadmobile__
 
 Dad's wicked cool car
-![Dadmobile](screenshots/dadmobile.gif)
+![Dadmobile](screenshots/dadmobile.png)
 
 __Hover Cycle__
 
 A hoverbike
 ![Hover Cycle](screenshots/hover_cycle.gif)
 
+__Hover Car__
+
+A hover car that can really jump
+![Hover Car](screenshots/hover_car.gif)
+
+__Jackmobile__
+
+Jack's really fast car
+![Jackmobile](screenshots/jackmobile.png)
+
+__Iron Mech__
+
+A mech made from an iron golem
+![Iron Mech](screenshots/iron_mech.png)
+
 
 ## New Swords
 ![Swords](screenshots/swords.png)
+
+![Crazata Sword](screenshots/crazata_sword.png)
 
 - Arrow Sword: Shoots arrows
 - Bee Blade: Summons bees
@@ -89,6 +124,7 @@ A hoverbike
 - Rainbow Sword: Creates a wool rainbow
 - Thunder Blade: Lightning strikes whatever mob you hit
 - Ultra Sword: Creates a block of ice
+- Crazata Sword: Official sword of Crazata
 
 ## New Food
 ![Food](screenshots/food.png)
@@ -115,10 +151,28 @@ __Chicken Armor__
 
 ![Chicken Armor](screenshots/chickenarmor.png)
 
+__Too Tall Hat__
+
+![Too Tall Hat](screenshots/too_tall_hat.png)
+
+__Chicken Pickaxe__
+
+![Chicken Pickaxe](screenshots/chicken_pickaxe.png)
+
+__Chicken Log__
+
+![Chicken Log](screenshots/chicken_log.png)
+
+__Raw Saphire Ore__
+
+![Raw Saphire Ore](screenshots/raw_saphire_ore.png)
 
 
 ## TODO
-- Mechs?
-- Hover Car
-- Chicken Man
 - Chicken Dragon
+- Cheese
+- Wheel of Cheese
+- Cheese Car
+- Skeleton Armor
+- Santa Armor
+- Santa Ingot

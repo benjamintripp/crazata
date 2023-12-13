@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nate:hover_car_spawn_egg"
+		},
+		"tags": ["crafting_table"],
+		"pattern": ["E", "E", "#"],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"E": {
+				"item": "minecraft:elytra"
+			}
+		},
+		"result": {
+			"item": "nate:hover_car_spawn_egg"
+		}
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nate:iron_mech",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:movement": {
+				"value": 0.5
+			},
+			"minecraft:collision_box": {
+				"height": 1,
+				"width": 1.2
+			},
+			"minecraft:can_climb": {},
+			"minecraft:health": {
+				"value": 100
+			},
+			"minecraft:navigation.generic": {},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:behavior.player_ride_tamed": {},
+			"minecraft:water_movement": {
+				"drag_factor": 0.5
+			},
+			"minecraft:underwater_movement": {
+				"value": 0.7
+			},
+			"minecraft:can_power_jump": {},
+			"minecraft:horse.jump_strength": {
+				"value": 4
+			},
+			"minecraft:movement.jump": {},
+			"minecraft:jump.dynamic": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false,
+						"cause": "fall"
+					}
+				]
+			},
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"seats": [
+					{
+						"position": [
+							0,
+							2,
+							0
+						],
+						"lock_rider_rotation": 45
+					}
+				]
+			},
+			"minecraft:behavior.mount_pathing": {
+				"priority": 2,
+				"speed_multiplier": 1,
+				"target_dist": 4,
+				"track_target": true
+			},
+			"minecraft:variable_max_auto_step": {
+				"base_value": 1.2,
+				"controlled_value": 1.2
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/iron_mech.json"
+			}
+		}
+	}
+}
