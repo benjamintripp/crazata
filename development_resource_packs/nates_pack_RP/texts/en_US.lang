@@ -51,3 +51,5 @@ entity.nate:nyx.name=Nyx
 item.spawn_egg.entity.nate:nyx.name=Spawn Nyx
 entity.nate:chicken_dragon.name=Chicken Dragon
 item.spawn_egg.entity.nate:chicken_dragon.name=Spawn Chicken Dragon
+entity.nate:angry_bunny.name=Angry Bunny
+item.spawn_egg.entity.nate:angry_bunny.name=Spawn Angry Bunny

@@ -25,7 +25,16 @@
           "test": "has_biome_tag",
           "operator": "==",
           "value": "animal"
-        }
+        },
+        "minecraft:permute_type": [
+          {
+            "weight": 90
+          },
+          {
+            "weight": 10,
+            "entity_type": "nate:nyx"
+          }
+        ]
       },
       {
         "minecraft:spawns_on_surface": {},

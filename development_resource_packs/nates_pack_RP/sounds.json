@@ -1,6 +1,15 @@
 {
 	"entity_sounds": {
 		"entities": {
+			"nate:angry_bunny": {
+				"events": {
+					"ambient": "mob.rabbit.idle",
+					"death": "mob.rabbit.death",
+					"hurt": "mob.rabbit.hurt"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 0.8
+			},
 			"nate:chicken_dragon": {
 				"events": {
 					"ambient": "mob.phantom.idle",

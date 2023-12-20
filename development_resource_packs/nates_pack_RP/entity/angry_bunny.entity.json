@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nate:angry_bunny",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"brown": "textures/entity/angry_bunny/brown",
+				"white": "textures/entity/angry_bunny/white",
+				"black": "textures/entity/angry_bunny/black",
+				"white_splotched": "textures/entity/angry_bunny/white_splotched",
+				"gold": "textures/entity/angry_bunny/gold",
+				"salt": "textures/entity/angry_bunny/salt",
+				"toast": "textures/entity/angry_bunny/toast"
+			},
+			"geometry": {
+				"default": "geometry.angry_bunny"
+			},
+			"animations": {
+				"move": "animation.angry_bunny.move",
+				"baby_transform": "animation.angry_bunny.baby_transform",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.rabbit.general"
+				},
+				{
+					"baby": "controller.animation.rabbit.baby"
+				}
+			],
+			"render_controllers": ["controller.render.rabbit"],
+			"spawn_egg": {
+				"base_color": "#4116a1",
+				"overlay_color": "#e9ba12"
+			}
+		}
+	}
+}
