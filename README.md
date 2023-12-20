@@ -84,6 +84,17 @@ __Chicken Dragon__
 A Chicken Dragon that flies with the power of Crazata
 ![Chicken Dragon](screenshots/chicken_dragon.png)
 
+__Angry Bunny__
+
+A very angry bunny that yells if you get too close
+![Angry Bunny](screenshots/angry_bunny.png)
+
+__Random Frog__
+
+Just like a normal frog but comes in random sizes
+![Random Frog](screenshots/random_frog.png)
+
+
 ## New Vehicles
 
 __Dadmobile__

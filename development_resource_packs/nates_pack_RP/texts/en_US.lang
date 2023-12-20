@@ -53,3 +53,5 @@ entity.nate:chicken_dragon.name=Chicken Dragon
 item.spawn_egg.entity.nate:chicken_dragon.name=Spawn Chicken Dragon
 entity.nate:angry_bunny.name=Angry Bunny
 item.spawn_egg.entity.nate:angry_bunny.name=Spawn Angry Bunny
+entity.nate:random_frog.name=Random Frog
+item.spawn_egg.entity.nate:random_frog.name=Spawn Random Frog

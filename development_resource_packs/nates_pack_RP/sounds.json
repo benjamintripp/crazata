@@ -1,6 +1,23 @@
 {
 	"entity_sounds": {
 		"entities": {
+			"nate:random_frog": {
+				"events": {
+					"ambient": "mob.frog.ambient",
+					"ambient.baby": {
+						"pitch": 1.2,
+						"sound": "mob.frog.ambient",
+						"volume": 2.5
+					},
+					"death": "mob.frog.death",
+					"eat": "mob.frog.eat",
+					"hurt": "mob.frog.hurt",
+					"jump_to_block": "mob.frog.jump_to_block",
+					"step": "mob.frog.step"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
 			"nate:angry_bunny": {
 				"events": {
 					"ambient": "mob.rabbit.idle",

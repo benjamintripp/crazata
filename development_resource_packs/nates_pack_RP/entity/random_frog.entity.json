@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nate:random_frog",
+			"materials": {
+				"default": "frog"
+			},
+			"textures": {
+				"temperate": "textures/entity/random_frog/temperate",
+				"cold": "textures/entity/random_frog/cold",
+				"warm": "textures/entity/random_frog/warm"
+			},
+			"geometry": {
+				"default": "geometry.random_frog"
+			},
+			"spawn_egg": {
+				"base_color": "#166e00",
+				"overlay_color": "#8afd63"
+			},
+			"animations": {
+				"croak": "animation.random_frog.croak",
+				"jump": "animation.random_frog.jump",
+				"tongue": "animation.random_frog.tongue",
+				"walk": "animation.random_frog.walk",
+				"swim": "animation.random_frog.swim",
+				"idle_water": "animation.random_frog.idle.water",
+				"look_at_target": "animation.common.look_at_target",
+				"general": "controller.animation.frog.general",
+				"croaking": "controller.animation.frog.croaking",
+				"eat_mob": "controller.animation.frog.eat_mob"
+			},
+			"scripts": {
+				"animate": ["general", "croaking", "eat_mob"],
+				"pre_animation": ["variable.moving = query.ground_speed > 0 || query.vertical_speed > 0;"]
+			},
+			"render_controllers": ["controller.render.frog"]
+		}
+	}
+}
