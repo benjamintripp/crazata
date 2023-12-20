@@ -9,6 +9,11 @@
 			"is_experimental": false
 		},
 		"component_groups": {
+			"super": {
+				"minecraft:scale": {
+					"value": 10
+				}
+			},
 			"minecraft:mega_chicken_baby": {
 				"minecraft:is_baby": {},
 				"minecraft:scale": {
@@ -204,9 +209,27 @@
 				}
 			},
 			"minecraft:spawn_adult": {
-				"add": {
-					"component_groups": ["minecraft:mega_chicken_adult"]
-				}
+				"sequence": [
+					{
+						"add": {
+							"component_groups": ["minecraft:mega_chicken_adult"]
+						}
+					},
+					{
+						"randomize": [
+							{
+								"weight": 1,
+								"add": {
+									"component_groups": ["super"]
+								}
+							},
+							{
+								"weight": 9
+							}
+						]
+					}
+				]
+				
 			}
 		}
 	}
