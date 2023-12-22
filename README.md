@@ -99,6 +99,11 @@ __Chicken of the Sea__
 A chicken that lives underwater
 ![Chicken of the Sea](screenshots/chicken_of_the_sea.png)
 
+__Shrinky Pig 2000__
+
+A chicken that lives underwater
+![Shrinky Pig 2000](screenshots/shrinky_pig_2000.png)
+
 
 ## New Vehicles
 

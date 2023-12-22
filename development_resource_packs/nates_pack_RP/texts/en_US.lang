@@ -57,3 +57,6 @@ entity.nate:random_frog.name=Random Frog
 item.spawn_egg.entity.nate:random_frog.name=Spawn Random Frog
 entity.nate:chicken_of_the_sea.name=Chicken of the Sea
 item.spawn_egg.entity.nate:chicken_of_the_sea.name=Spawn Chicken of the Sea
+entity.nate:shrinky_pig_2000.name=Shrinky Pig 2000
+item.spawn_egg.entity.nate:shrinky_pig_2000.name=Spawn Shrinky Pig 2000
+action.hint.exit.nate:shrinky_pig_2000=Tap sneak to dismount
