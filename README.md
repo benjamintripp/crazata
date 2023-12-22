@@ -101,7 +101,7 @@ A chicken that lives underwater
 
 __Shrinky Pig 2000__
 
-A chicken that lives underwater
+A pig that shrinks if you get too close
 ![Shrinky Pig 2000](screenshots/shrinky_pig_2000.png)
 
 
