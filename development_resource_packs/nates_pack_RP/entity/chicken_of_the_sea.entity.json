@@ -1,0 +1,45 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nate:chicken_of_the_sea",
+			"min_engine_version": "1.12.0",
+			"materials": {
+				"default": "entity_alphatest",
+				"legs": "chicken_legs"
+			},
+			"textures": {
+				"default": "textures/entity/chicken_of_the_sea"
+			},
+			"geometry": {
+				"default": "geometry.chicken_of_the_sea"
+			},
+			"animations": {
+				"move": "animation.chicken_of_the_sea.move",
+				"general": "animation.chicken_of_the_sea.general",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.chicken_of_the_sea.baby_transform"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.wing_flap = ((math.sin(query.wing_flap_position * 57.3) + 1) * query.wing_flap_speed);"
+				  ],
+				"animate": [
+					"general",
+					{
+						"move": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"render_controllers": ["controller.render.chicken"],
+			"spawn_egg": {
+				"base_color": "#55b07c",
+				"overlay_color": "#e0ff85"
+			}
+		}
+	}
+}

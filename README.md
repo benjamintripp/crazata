@@ -94,6 +94,11 @@ __Random Frog__
 Just like a normal frog but comes in random sizes
 ![Random Frog](screenshots/random_frog.png)
 
+__Chicken of the Sea__
+
+A chicken that lives underwater
+![Chicken of the Sea](screenshots/chicken_of_the_sea.png)
+
 
 ## New Vehicles
 
