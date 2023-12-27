@@ -34,7 +34,24 @@
               "value": "forest"
             }
           ]
-        }
+        },
+        "minecraft:permute_type": [
+          {
+            "weight": 25
+          },
+          {
+            "weight": 25,
+            "entity_type": "nate:hover_cycle"
+          },
+          {
+            "weight": 25,
+            "entity_type": "nate:hover_car"
+          },
+          {
+            "weight": 25,
+            "entity_type": "nate:dadmobile"
+          }
+        ]
       }
     ]
   }

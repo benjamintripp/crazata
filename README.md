@@ -84,6 +84,32 @@ __Chicken Dragon__
 A Chicken Dragon that flies with the power of Crazata
 ![Chicken Dragon](screenshots/chicken_dragon.png)
 
+__Angry Bunny__
+
+A very angry bunny that yells if you get too close
+![Angry Bunny](screenshots/angry_bunny.png)
+
+__Random Frog__
+
+Just like a normal frog but comes in random sizes
+![Random Frog](screenshots/random_frog.png)
+
+__Chicken of the Sea__
+
+A chicken that lives underwater
+![Chicken of the Sea](screenshots/chicken_of_the_sea.png)
+
+__Shrinky Pig 2000__
+
+A pig that shrinks if you get too close
+![Shrinky Pig 2000](screenshots/shrinky_pig_2000.png)
+
+__TNT Chicken__
+
+A chicken that explodes if you hit it with flint and steel
+![TNT Chicken](screenshots/tnt_chicken.png)
+
+
 ## New Vehicles
 
 __Dadmobile__
@@ -145,6 +171,9 @@ __Nate__
 
 __Jack__
 ![Jack](screenshots/jackskin.png)
+
+__Chicken__
+![Chicken](screenshots/chicken_skin.png)
 
 ## Other New Stuff
 

@@ -32,6 +32,10 @@
           {
             "weight": 33,
             "entity_type": "nate:micro_chicken"
+          },
+          {
+            "weight": 10,
+            "entity_type": "nate:tnt_chicken"
           }
         ],
         "minecraft:biome_filter": {

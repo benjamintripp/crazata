@@ -1,6 +1,85 @@
 {
 	"entity_sounds": {
 		"entities": {
+			"nate:tnt_chicken": {
+				"events": {
+					"ambient": "mob.chicken.say",
+					"death": "mob.chicken.hurt",
+					"hurt": "mob.chicken.hurt",
+					"plop": "mob.chicken.plop",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.chicken.step",
+						"volume": 0.25
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nate:shrinky_pig_2000": {
+				"events": {
+					"ambient": "mob.pig.say",
+					"boost": {
+						"pitch": 1,
+						"sound": "mob.pig.boost",
+						"volume": 1
+					},
+					"death": "mob.pig.death",
+					"death.to.zombie": {
+						"sound": "mob.pig.death",
+						"volume": 2
+					},
+					"hurt": "mob.pig.say",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.pig.step",
+						"volume": 0.2
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nate:chicken_of_the_sea": {
+				"events": {
+					"ambient": "mob.chicken.say",
+					"death": "mob.chicken.hurt",
+					"hurt": "mob.chicken.hurt",
+					"plop": "mob.chicken.plop",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.chicken.step",
+						"volume": 0.25
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nate:random_frog": {
+				"events": {
+					"ambient": "mob.frog.ambient",
+					"ambient.baby": {
+						"pitch": 1.2,
+						"sound": "mob.frog.ambient",
+						"volume": 2.5
+					},
+					"death": "mob.frog.death",
+					"eat": "mob.frog.eat",
+					"hurt": "mob.frog.hurt",
+					"jump_to_block": "mob.frog.jump_to_block",
+					"step": "mob.frog.step"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nate:angry_bunny": {
+				"events": {
+					"ambient": "mob.rabbit.idle",
+					"death": "mob.rabbit.death",
+					"hurt": "mob.rabbit.hurt"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 0.8
+			},
 			"nate:chicken_dragon": {
 				"events": {
 					"ambient": "mob.phantom.idle",

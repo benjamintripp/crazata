@@ -23,11 +23,15 @@
         },          
         "minecraft:permute_type": [
           {
-            "weight": 75
+            "weight": 50
           },
           {
             "weight": 25,
             "entity_type": "nate:tall_pig"
+          },
+          {
+            "weight": 25,
+            "entity_type": "nate:shrinky_pig_2000"
           }
         ],
         "minecraft:biome_filter": {
