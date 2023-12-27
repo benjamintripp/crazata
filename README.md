@@ -104,6 +104,11 @@ __Shrinky Pig 2000__
 A pig that shrinks if you get too close
 ![Shrinky Pig 2000](screenshots/shrinky_pig_2000.png)
 
+__TNT Chicken__
+
+A chicken that explodes if you hit it with flint and steel
+![TNT Chicken](screenshots/tnt_chicken.png)
+
 
 ## New Vehicles
 
