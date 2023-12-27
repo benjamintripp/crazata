@@ -172,6 +172,9 @@ __Nate__
 __Jack__
 ![Jack](screenshots/jackskin.png)
 
+__Chicken__
+![Chicken](screenshots/chicken_skin.png)
+
 ## Other New Stuff
 
 __Nether Wand__
