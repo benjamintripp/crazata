@@ -109,6 +109,10 @@ __TNT Chicken__
 A chicken that explodes if you hit it with flint and steel
 ![TNT Chicken](screenshots/tnt_chicken.png)
 
+__Battle Donkey__
+
+A donkey that loves to fight. It's also cool.
+![Battle Donkey](screenshots/battle_donkey.png)
 
 ## New Vehicles
 
@@ -200,9 +204,18 @@ __Raw Saphire Ore__
 
 ![Raw Saphire Ore](screenshots/raw_saphire_ore.png)
 
+__Friend Finder__
+
+Teleports you to a random other player
+![Friend Finder](screenshots/friend_finder.png)
+
+__Tree Armor__
+
+![Tree Armor](screenshots/tree_armor.png)
+
+
 
 ## TODO
-- Chicken Dragon
 - Cheese
 - Wheel of Cheese
 - Cheese Car

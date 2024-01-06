@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nate:friend_finder"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"G",
+			"E",
+            "G"
+		],
+		"key": {
+			"G": {
+				"item": "minecraft:gold_ingot"
+			},
+			"E": {
+				"item": "minecraft:ender_pearl"
+			}
+		},
+		"result": [
+			{
+				"item": "nate:friend_finder"
+			}
+		]
+	}
+}

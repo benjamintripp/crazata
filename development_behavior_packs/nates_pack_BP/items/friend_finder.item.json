@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nate:friend_finder",
+			"category": "equipment"
+
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "friend_finder"
+			},
+			"minecraft:glint": true,
+			"minecraft:on_use":{
+				"on_use": {
+					"event": "nate:friend_finder.teleport"
+				}
+			}
+		},
+		"events": {
+			"nate:friend_finder.teleport": {
+				"sequence":[
+					{
+						"run_command":{
+							"command":[
+								"tp @s @r"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,5 +1,20 @@
 {
 	"texture_data": {
+		"tree_helmet": {
+			"textures": "textures/items/tree_helmet.png"
+		},
+		"tree_boots": {
+			"textures": "textures/items/tree_boots.png"
+		},
+		"tree_leggings": {
+			"textures": "textures/items/tree_leggings.png"
+		},
+		"tree_chestplate": {
+			"textures": "textures/items/tree_chestplate.png"
+		},
+		"friend_finder": {
+			"textures": "textures/items/friend_finder.png"
+		},
 		"iron_mech_spawn_egg": {
 			"textures": ["textures/items/iron_mech_spawn_egg"]
 		},
