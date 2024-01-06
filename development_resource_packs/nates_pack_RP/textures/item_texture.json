@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"chicken_hammer": {
+			"textures": "textures/items/chicken_hammer.png"
+		},
 		"tree_helmet": {
 			"textures": "textures/items/tree_helmet.png"
 		},

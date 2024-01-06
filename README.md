@@ -213,6 +213,11 @@ __Tree Armor__
 
 ![Tree Armor](screenshots/tree_armor.png)
 
+__Chicken Hammer__
+
+Sometimes spawns a Mega Chicken
+![Chicken Hammer](screenshots/chicken_hammer.png)
+
 
 
 ## TODO
