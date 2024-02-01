@@ -9,6 +9,66 @@
 			"is_experimental": false
 		},
 		"component_groups": {
+			"nate:mega" :{
+				"minecraft:scale": {
+					"value": 5
+				},
+				"minecraft:movement": {
+					"value": 0.6
+				},
+				"minecraft:health": {
+					"value": 200,
+					"max": 200
+				},
+				"minecraft:attack": {
+					"damage": 40
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 4,
+					"reselect_targets": true,
+					"must_see": true,
+					"entity_types": [
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "monster"
+									},
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "sheep"
+									},
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "rabbit"
+									},
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "fox"
+									}
+								]
+							},
+							"max_dist": 16
+						}
+					]
+				},
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"family_types": ["player"],
+					"interact_text": "action.interact.mount",
+					"seats": {
+						"position": [-0.03, 0.3, 0]
+					}
+				},
+				"minecraft:behavior.player_ride_tamed": {},
+				"minecraft:is_saddled": {},
+				"minecraft:input_ground_controlled": {}
+			},
 			"minecraft:wolf_baby": {
 				"minecraft:is_baby": {},
 				"minecraft:scale": {
@@ -247,6 +307,42 @@
 						"event": "minecraft:on_unleash",
 						"target": "self"
 					}
+				},
+				"minecraft:interact": {
+					"interactions": [
+					{
+						"play_sounds": "twinkle",
+						"on_interact": {
+						"filters": {
+							"all_of": [
+							{ "test": "is_family", "subject": "other", "value": "player" },
+							{ "test": "is_sneaking", "subject": "other", "value": false },
+							{ "test": "has_equipment", "domain": "hand", "subject": "other", "value": "nate:chicken_ingot" }
+							]
+						},
+						"event": "nate:mega_peach",
+						"target": "self"
+						},
+						"use_item": true,
+						"interact_text": "MEGA PEACH!!!!!!"
+					},
+					{
+						"play_sounds": "twinkle",
+						"on_interact": {
+						"filters": {
+							"all_of": [
+							{ "test": "is_family", "subject": "other", "value": "player" },
+							{ "test": "is_sneaking", "subject": "other", "value": false },
+							{ "test": "has_equipment", "domain": "hand", "subject": "other", "value": "minecraft:egg" }
+							]
+						},
+						"event": "nate:shrink",
+						"target": "self"
+						},
+						"use_item": true,
+						"interact_text": "Shrink"
+					}
+					]
 				}
 			}
 		},
@@ -494,7 +590,21 @@
 				"add": {
 					"component_groups": ["minecraft:wolf_wild"]
 				}
-			}
+			},
+			"nate:mega_peach": {
+				"add": {
+				  "component_groups": [
+					"nate:mega"
+				  ]
+				}
+			  },
+			  "nate:shrink": {
+				"remove": {
+				  "component_groups": [
+					"nate:mega"
+				  ]
+				}
+			  }
 		}
 	}
 }
