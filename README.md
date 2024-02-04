@@ -31,7 +31,7 @@ A chicken so big you can ride it
 
 __Peach__
 
-Our dog peach. If you give her a Chicken Ingot she turns *MEGA*. An egg will calm her down.
+Our dog peach. If you give her a Chicken Ingot she turns *MEGA*. An egg will calm her down. She can fly if you give her a feather.
 ![Peach](screenshots/peach.png)
 
 __Shark__
