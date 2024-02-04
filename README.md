@@ -31,7 +31,7 @@ A chicken so big you can ride it
 
 __Peach__
 
-Our dog peach
+Our dog peach. If you give her a Chicken Ingot she turns *MEGA*. An egg will calm her down.
 ![Peach](screenshots/peach.png)
 
 __Shark__
@@ -76,7 +76,7 @@ Enderman from the overworld
 
 __Nyx__
 
-Sam's dog Nyx (and Peach's best friend)
+Sam's dog Nyx (and Peach's best friend).  If you give her an Iron Ingot she turns *MEGA*. An egg will calm her down.
 ![Nyx](screenshots/nyx.png)
 
 __Chicken Dragon__
