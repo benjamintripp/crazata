@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nate:chicken_hammer"
+		},
+		"tags": ["crafting_table"],
+		"pattern": ["eee","eee",  "#"],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"e": {
+				"item": "nate:chicken_ingot"
+			}
+		},
+		"result": {
+			"item": "nate:chicken_hammer"
+		}
+	}
+}

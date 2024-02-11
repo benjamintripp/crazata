@@ -1,6 +1,66 @@
 {
 	"entity_sounds": {
 		"entities": {
+			"nate:karate_chicken": {
+				"events": {
+					"ambient": "mob.chicken.say",
+					"death": "mob.chicken.hurt",
+					"hurt": "mob.chicken.hurt",
+					"plop": "mob.chicken.plop",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.chicken.step",
+						"volume": 0.25
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nate:battle_donkey": {
+				"events": {
+					"add.chest": {
+						"pitch": [0.8, 1.2],
+						"sound": "mob.horse.armor",
+						"volume": 1
+					},
+					"ambient": "mob.horse.donkey.idle",
+					"armor": {
+						"pitch": 1,
+						"sound": "mob.horse.armor",
+						"volume": 0.6
+					},
+					"breathe": {
+						"pitch": 1,
+						"sound": "mob.horse.breathe",
+						"volume": 0.7
+					},
+					"death": "mob.horse.donkey.death",
+					"eat": {
+						"pitch": [0.8, 1.2],
+						"sound": "mob.horse.eat",
+						"volume": [0.5, 1.5]
+					},
+					"hurt": "mob.horse.donkey.hit",
+					"jump": {
+						"pitch": 1,
+						"sound": "mob.horse.jump",
+						"volume": 0.4
+					},
+					"land": {
+						"pitch": 1,
+						"sound": "mob.horse.land",
+						"volume": 0.4
+					},
+					"mad": "mob.horse.donkey.angry",
+					"saddle": {
+						"pitch": 1,
+						"sound": "mob.horse.leather",
+						"volume": 0.5
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 0.8
+			},
 			"nate:tnt_chicken": {
 				"events": {
 					"ambient": "mob.chicken.say",

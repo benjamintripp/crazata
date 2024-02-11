@@ -31,7 +31,7 @@ A chicken so big you can ride it
 
 __Peach__
 
-Our dog peach
+Our dog peach. If you give her a Chicken Ingot she turns *MEGA*. An egg will calm her down. She can fly if you give her a feather.
 ![Peach](screenshots/peach.png)
 
 __Shark__
@@ -76,7 +76,7 @@ Enderman from the overworld
 
 __Nyx__
 
-Sam's dog Nyx (and Peach's best friend)
+Sam's dog Nyx (and Peach's best friend).  If you give her an Iron Ingot she turns *MEGA*. An egg will calm her down.
 ![Nyx](screenshots/nyx.png)
 
 __Chicken Dragon__
@@ -108,6 +108,16 @@ __TNT Chicken__
 
 A chicken that explodes if you hit it with flint and steel
 ![TNT Chicken](screenshots/tnt_chicken.png)
+
+__Battle Donkey__
+
+A donkey that loves to fight. It's also cool.
+![Battle Donkey](screenshots/battle_donkey.png)
+
+__Karate Chicken__
+
+A black belt karate chicken. Very agressive. It has it's patch and it's spritit patch.
+![Karate Chicken](screenshots/karate_chicken.png)
 
 
 ## New Vehicles
@@ -200,9 +210,30 @@ __Raw Saphire Ore__
 
 ![Raw Saphire Ore](screenshots/raw_saphire_ore.png)
 
+__Saphire__
+
+![Saphire](screenshots/saphire.png)
+
+__Friend Finder__
+
+Teleports you to a random other player
+![Friend Finder](screenshots/friend_finder.png)
+
+__Tree Armor__
+
+![Tree Armor](screenshots/tree_armor.png)
+
+__Chicken Hammer__
+
+Sometimes spawns a Mega Chicken
+![Chicken Hammer](screenshots/chicken_hammer.png)
+
+__Black Belt__
+
+![Black Belt](screenshots/black_belt.png)
+
 
 ## TODO
-- Chicken Dragon
 - Cheese
 - Wheel of Cheese
 - Cheese Car

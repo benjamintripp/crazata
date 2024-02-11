@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+		"identifier": "nate:tree_boots"
+		},
+	
+		
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"X X",
+			"X X"
+		],
+		"key": {
+		  "X": {
+			"item": "minecraft:log"
+		  }
+		},
+		"result": {
+		  "item": "nate:tree_boots"
+		}
+	  }
+}
