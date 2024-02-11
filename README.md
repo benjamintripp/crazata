@@ -206,13 +206,13 @@ __Chicken Log__
 
 ![Chicken Log](screenshots/chicken_log.png)
 
-__Raw Saphire Ore__
+__Raw sapphire Ore__
 
-![Raw Saphire Ore](screenshots/raw_saphire_ore.png)
+![Raw sapphire Ore](screenshots/raw_sapphire_ore.png)
 
-__Saphire__
+__sapphire__
 
-![Saphire](screenshots/saphire.png)
+![sapphire](screenshots/sapphire.png)
 
 __Friend Finder__
 
