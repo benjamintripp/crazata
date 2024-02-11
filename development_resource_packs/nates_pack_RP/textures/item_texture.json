@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"black_belt": {
+			"textures": "textures/items/black_belt.png"
+		},
 		"chicken_hammer": {
 			"textures": "textures/items/chicken_hammer.png"
 		},

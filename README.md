@@ -224,6 +224,9 @@ __Chicken Hammer__
 Sometimes spawns a Mega Chicken
 ![Chicken Hammer](screenshots/chicken_hammer.png)
 
+__Black Belt__
+
+![Black Belt](screenshots/black_belt.png)
 
 
 ## TODO
