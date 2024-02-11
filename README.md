@@ -210,6 +210,10 @@ __Raw Saphire Ore__
 
 ![Raw Saphire Ore](screenshots/raw_saphire_ore.png)
 
+__Saphire__
+
+![Saphire](screenshots/saphire.png)
+
 __Friend Finder__
 
 Teleports you to a random other player

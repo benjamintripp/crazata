@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"saphire": {
+			"textures": "textures/items/saphire.png"
+		},
 		"black_belt": {
 			"textures": "textures/items/black_belt.png"
 		},
