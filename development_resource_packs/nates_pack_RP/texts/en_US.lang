@@ -71,3 +71,5 @@ item.nate:tree_leggings=Tree Leggings
 item.nate:tree_boots=Tree Boots
 item.nate:tree_helmet=Tree Helmet
 item.nate:chicken_hammer=Chicken Hammer
+entity.nate:karate_chicken.name=Karate Chicken
+item.spawn_egg.entity.nate:karate_chicken.name=Spawn Karate Chicken

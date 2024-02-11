@@ -114,6 +114,12 @@ __Battle Donkey__
 A donkey that loves to fight. It's also cool.
 ![Battle Donkey](screenshots/battle_donkey.png)
 
+__Karate Chicken__
+
+A black belt karate chicken. Very agressive. It has it's patch and it's spritit patch.
+![Karate Chicken](screenshots/karate_chicken.png)
+
+
 ## New Vehicles
 
 __Dadmobile__
