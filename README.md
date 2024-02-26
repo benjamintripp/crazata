@@ -119,6 +119,11 @@ __Karate Chicken__
 A black belt karate chicken. Very agressive. It has it's patch and it's spritit patch.
 ![Karate Chicken](screenshots/karate_chicken.png)
 
+__Chicken Knight__
+
+A brave knight who just happens to be a chicken. Fully equiped with Chicken Armor and Chicken Sword.
+![Chicken Knight](screenshots/chicken_knight.png)
+
 
 ## New Vehicles
 
