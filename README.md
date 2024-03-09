@@ -170,6 +170,7 @@ A mech made from an iron golem
 - Thunder Blade: Lightning strikes whatever mob you hit
 - Ultra Sword: Creates a block of ice
 - Crazata Sword: Official sword of Crazata
+- Golden Katana
 
 ## New Food
 ![Food](screenshots/food.png)
@@ -189,6 +190,9 @@ __Jack__
 
 __Chicken__
 ![Chicken](screenshots/chicken_skin.png)
+
+__Karate__
+![Karate](screenshots/karate_skin.png)
 
 ## Other New Stuff
 
