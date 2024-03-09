@@ -1,0 +1,45 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nate:fast_chicken",
+			"min_engine_version": "1.12.0",
+			"materials": {
+				"default": "entity_alphatest",
+				"legs": "chicken_legs"
+			},
+			"textures": {
+				"default": "textures/entity/fast_chicken"
+			},
+			"geometry": {
+				"default": "geometry.fast_chicken"
+			},
+			"animations": {
+				"move": "animation.fast_chicken.move",
+				"general": "animation.fast_chicken.general",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.fast_chicken.baby_transform"
+			},
+			  "particle_effects": {
+				"fast": "minecraft:campfire_smoke_particle"
+			  },
+			"scripts": {
+				"animate": [
+					"general",
+					{
+						"move": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"render_controllers": ["controller.render.chicken"],
+			"spawn_egg": {
+				"base_color": "#1bc896",
+				"overlay_color": "#7db885"
+			}
+		}
+	}
+}

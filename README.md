@@ -124,6 +124,8 @@ __Chicken Knight__
 A brave knight who just happens to be a chicken. Fully equiped with Chicken Armor and Chicken Sword.
 ![Chicken Knight](screenshots/chicken_knight.png)
 
+__Fast Chicken__
+A really fast chicken. Looks just like a regular chicken.
 
 ## New Vehicles
 
