@@ -171,6 +171,7 @@ A mech made from an iron golem
 - Ultra Sword: Creates a block of ice
 - Crazata Sword: Official sword of Crazata
 - Golden Katana
+- Sapphire Sword: Be careful for poison
 
 ## New Food
 ![Food](screenshots/food.png)
@@ -193,6 +194,9 @@ __Chicken__
 
 __Karate__
 ![Karate](screenshots/karate_skin.png)
+
+__Diamond__
+![Diamond](screenshots/diamond_skin.png)
 
 ## Other New Stuff
 

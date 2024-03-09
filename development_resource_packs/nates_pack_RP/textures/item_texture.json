@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"sapphire_sword": {
+			"textures": "textures/items/sapphire_sword.png"
+		},
 		"gold_katana": {
 			"textures": "textures/items/gold_katana.png"
 		},
