@@ -1,5 +1,17 @@
 {
 	"texture_data": {
+		"sapphire_boots": {
+			"textures": "textures/items/sapphire_boots.png"
+		},
+		"sapphire_leggings": {
+			"textures": "textures/items/sapphire_leggings.png"
+		},
+		"sapphire_chestplate": {
+			"textures": "textures/items/sapphire_chestplate.png"
+		},
+		"sapphire_helmet": {
+			"textures": "textures/items/sapphire_helmet.png"
+		},
 		"sapphire_sword": {
 			"textures": "textures/items/sapphire_sword.png"
 		},

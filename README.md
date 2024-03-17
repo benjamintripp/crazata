@@ -251,6 +251,10 @@ __Black Belt__
 
 ![Black Belt](screenshots/black_belt.png)
 
+__Sapphire Armor__
+
+![Sapphire Armor](screenshots/sapphire_armor.png)
+
 
 ## TODO
 - Cheese
