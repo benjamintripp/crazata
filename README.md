@@ -127,6 +127,10 @@ A brave knight who just happens to be a chicken. Fully equiped with Chicken Armo
 __Fast Chicken__
 A really fast chicken. Looks just like a regular chicken.
 
+__Dophinsquid__
+Part dolphin, part squid. All Crazata. (Brendan's idea)
+![Dophinsquid](screenshots/dolphinsquid.png)
+
 ## New Vehicles
 
 __Dadmobile__

@@ -81,3 +81,5 @@ item.nate:gold_katana=Golden Katana
 item.nate:sapphire_sword=Sapphire Sword
 entity.nate:fast_chicken.name=Fast Chicken
 item.spawn_egg.entity.nate:fast_chicken.name=Spawn Fast Chicken
+entity.nate:dolphinsquid.name=Dolphinsquid
+item.spawn_egg.entity.nate:dolphinsquid.name=Spawn Dolphinsquid

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nate:dolphinsquid",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/dolphinsquid"
+			},
+			"geometry": {
+				"default": "geometry.dolphinsquid"
+			},
+			"animations": {
+				"move": "animation.dolphinsquid.move",
+				"squid_rotate": "animation.dolphinsquid.rotate"
+			},
+			"scripts": {
+				"animate": ["move", "squid_rotate"]
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#628e98",
+				"overlay_color": "#767676"
+			}
+		}
+	}
+}
