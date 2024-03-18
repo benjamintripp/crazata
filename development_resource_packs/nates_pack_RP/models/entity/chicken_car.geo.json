@@ -1,0 +1,98 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.chicken_car",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 2, 0]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{"origin": [-9, 5, -16], "size": [18, 9, 32], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "steering_wheel",
+					"parent": "body",
+					"pivot": [0, 15, -7],
+					"cubes": [
+						{"origin": [-3, 12, -9], "size": [6, 6, 2], "uv": [0, 20]}
+					]
+				},
+				{
+					"name": "leg0",
+					"parent": "root",
+					"pivot": [-7, 5, -12],
+					"cubes": [
+						{"origin": [-8, 0, -15], "size": [3, 5, 3], "uv": [1, 120]}
+					]
+				},
+				{
+					"name": "leg1",
+					"parent": "root",
+					"pivot": [6.5, 5, -12],
+					"cubes": [
+						{"origin": [5, 0, -15], "size": [3, 5, 3], "uv": [1, 120]}
+					]
+				},
+				{
+					"name": "leg2",
+					"parent": "root",
+					"pivot": [6.5, 5, 13],
+					"cubes": [
+						{"origin": [5, 0, 10], "size": [3, 5, 3], "uv": [1, 120]}
+					]
+				},
+				{
+					"name": "leg3",
+					"parent": "root",
+					"pivot": [-6.5, 5, 13],
+					"cubes": [
+						{"origin": [-8, 0, 10], "size": [3, 5, 3], "uv": [1, 120]}
+					]
+				},
+				{
+					"name": "wing0",
+					"parent": "root",
+					"pivot": [-9, 13, 0],
+					"cubes": [
+						{"origin": [-10, 9, -3], "size": [1, 4, 6], "uv": [114, 118]}
+					]
+				},
+				{
+					"name": "wing1",
+					"pivot": [9, 11, 0],
+					"cubes": [
+						{"origin": [9, 7, -3], "size": [1, 4, 6], "uv": [114, 118]}
+					]
+				},
+				{
+					"name": "comb",
+					"pivot": [0, 6, -15],
+					"cubes": [
+						{"origin": [-1, 6, -18], "size": [2, 2, 2], "uv": [116, 4]}
+					]
+				},
+				{
+					"name": "beak",
+					"pivot": [0, 6, -14],
+					"cubes": [
+						{"origin": [-2, 8, -18], "size": [4, 2, 2], "uv": [116, 0]}
+					]
+				}
+			]
+		}
+	]
+}

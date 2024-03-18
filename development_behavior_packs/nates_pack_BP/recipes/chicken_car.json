@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nate:chicken_car_spawn_egg"
+		},
+		"tags": ["crafting_table"],
+		"pattern": [" A ", "BBB", "B B"],
+		"key": {
+			"A": {
+				"item": "minecraft:saddle"
+			},
+			"B": {
+				"item": "nate:chicken_ingot"
+			}
+		},
+		"result": {
+			"item": "nate:chicken_car_spawn_egg"
+		}
+	}
+}

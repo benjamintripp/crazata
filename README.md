@@ -158,6 +158,11 @@ __Iron Mech__
 A mech made from an iron golem
 ![Iron Mech](screenshots/iron_mech.png)
 
+__Chicken Car__
+
+A chicken Car
+![Chicken Car](screenshots/chicken_car.png)
+
 
 ## New Swords
 ![Swords](screenshots/swords.png)

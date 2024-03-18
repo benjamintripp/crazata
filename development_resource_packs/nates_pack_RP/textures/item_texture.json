@@ -110,6 +110,9 @@
 		},
 		"chicken_pickaxe": {
 			"textures": "textures/items/chicken_pickaxe.png"
+		},
+		"chicken_car_spawn_egg": {
+			"textures": ["textures/items/chicken_car_spawn_egg"]
 		}
 	},
 	"resource_pack_name": "vanilla",
