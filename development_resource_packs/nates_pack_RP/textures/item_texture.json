@@ -1,7 +1,25 @@
 {
 	"texture_data": {
-		"saphire": {
-			"textures": "textures/items/saphire.png"
+		"sapphire_boots": {
+			"textures": "textures/items/sapphire_boots.png"
+		},
+		"sapphire_leggings": {
+			"textures": "textures/items/sapphire_leggings.png"
+		},
+		"sapphire_chestplate": {
+			"textures": "textures/items/sapphire_chestplate.png"
+		},
+		"sapphire_helmet": {
+			"textures": "textures/items/sapphire_helmet.png"
+		},
+		"sapphire_sword": {
+			"textures": "textures/items/sapphire_sword.png"
+		},
+		"gold_katana": {
+			"textures": "textures/items/gold_katana.png"
+		},
+		"sapphire": {
+			"textures": "textures/items/sapphire.png"
 		},
 		"black_belt": {
 			"textures": "textures/items/black_belt.png"
@@ -92,6 +110,9 @@
 		},
 		"chicken_pickaxe": {
 			"textures": "textures/items/chicken_pickaxe.png"
+		},
+		"chicken_car_spawn_egg": {
+			"textures": ["textures/items/chicken_car_spawn_egg"]
 		}
 	},
 	"resource_pack_name": "vanilla",

@@ -7,6 +7,13 @@
 			"is_summonable": true,
 			"is_experimental": false
 		},
+		"component_groups": {
+			"nate:chicken_knight_rider": {
+				"minecraft:addrider": {
+				  "entity_type": "nate:chicken_knight"
+				}
+			  }
+		},
 		"components": {
 			"minecraft:physics": {
 				"has_collision": true,
@@ -77,6 +84,22 @@
 			"minecraft:variable_max_auto_step": {
 				"base_value": 1.2,
 				"controlled_value": 1.2
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 95,
+						"trigger": "minecraft:spawn_adult"
+					},
+					{
+						"weight": 5,
+						"add": {
+							"component_groups": ["nate:chicken_knight_rider"]
+						}
+					}
+				]
 			}
 		}
 	}

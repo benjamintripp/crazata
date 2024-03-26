@@ -2,7 +2,7 @@
 	"format_version": "1.20.30",
 	"minecraft:item": {
 		"description": {
-			"identifier": "nate:saphire",
+			"identifier": "nate:sapphire",
 			"menu_category": {
 				"category": "items"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:max_stack_size": 64,
 			"minecraft:icon": {
-				"texture": "saphire"
+				"texture": "sapphire"
 			}
 		}
 	}

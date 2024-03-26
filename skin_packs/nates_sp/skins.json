@@ -25,6 +25,18 @@
         "geometry": "geometry.humanoid.custom",
         "texture": "chicken.png",
         "type": "free"
+      },
+      {
+        "localization_name": "Karate",
+        "geometry": "geometry.humanoid.custom",
+        "texture": "karate_skin.png",
+        "type": "free"
+      },
+      {
+        "localization_name": "Diamond",
+        "geometry": "geometry.humanoid.custom",
+        "texture": "diamond_skin.png",
+        "type": "free"
       }
     ]
   }

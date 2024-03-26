@@ -1,6 +1,47 @@
 {
 	"entity_sounds": {
 		"entities": {
+			"nate:dolphinsquid": {
+				"events": {
+					"ambient": "mob.squid.ambient",
+					"death": "mob.squid.death",
+					"hurt": "mob.squid.hurt"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 0.4
+			},
+			"nate:fast_chicken": {
+				"events": {
+					"ambient": "mob.chicken.say",
+					"death": "mob.chicken.hurt",
+					"hurt": "mob.chicken.hurt",
+					"plop": "mob.chicken.plop",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.chicken.step",
+						"volume": 0.25
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nate:chicken_knight": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
 			"nate:karate_chicken": {
 				"events": {
 					"ambient": "mob.chicken.say",

@@ -28,7 +28,7 @@
 				"bee_root_controller": "controller.animation.bee.root"
 			},
 			"particle_effects": {
-				"nectar_dripping": "minecraft:nectar_drip_particle"
+				"fast": "minecraft:nectar_drip_particle"
 			},
 			"scripts": {
 				"animate": [

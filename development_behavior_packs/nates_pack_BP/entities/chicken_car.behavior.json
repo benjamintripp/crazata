@@ -1,0 +1,79 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nate:chicken_car",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:movement": {
+				"value": 0.6
+			},
+			"minecraft:collision_box": {
+				"height": 1,
+				"width": 1.2
+			},
+			"minecraft:health": {
+				"value": 10
+			},
+			"minecraft:water_movement": {
+				"drag_factor": 0.6
+			},
+			"minecraft:underwater_movement": {
+				"value": 0.6
+			},
+			"minecraft:can_power_jump": {},
+			"minecraft:horse.jump_strength": {
+				"value": 2
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+				  "cause": "fall",
+				  "deals_damage": false
+				}
+			  },
+			  "minecraft:game_event_movement_tracking": {
+				"emit_flap": true
+			  },
+			"minecraft:movement.basic": {},
+			"minecraft:navigation.generic": {},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:can_climb": {},
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"seats": [
+					{
+						"position": [0, 0.5, 0]
+					}
+				]
+			},
+			"minecraft:spawn_entity": {
+				"entities": {
+				  "min_wait_time": 300,
+				  "max_wait_time": 600,
+				  "spawn_sound": "plop",
+				  "spawn_item": "egg"
+				}
+			  },
+			"minecraft:variable_max_auto_step": {
+				"base_value": 1.2,
+				"controlled_value": 1.2
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/chicken_car.json"
+			}
+		}
+	}
+}

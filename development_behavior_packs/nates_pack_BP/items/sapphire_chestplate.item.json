@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nate:sapphire_chestplate",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.chestplate"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "sapphire_chestplate"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.chest",
+				"protection": 16
+			},
+			"minecraft:durability": {
+				"max_durability": 1794
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["nate:sapphire"],
+						"repair_amount": 448
+					}
+				]
+			}
+		}
+	}
+}

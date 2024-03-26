@@ -23,19 +23,23 @@
         },
         "minecraft:permute_type": [
           {
-            "weight": 23
+            "weight": 1
           },
           {
-            "weight": 33,
+            "weight": 25,
             "entity_type": "nate:mega_chicken"
           },
           {
-            "weight": 33,
+            "weight": 25,
             "entity_type": "nate:micro_chicken"
           },
           {
-            "weight": 11,
+            "weight": 25,
             "entity_type": "nate:tnt_chicken"
+          },
+          {
+            "weight": 24,
+            "entity_type": "nate:fast_chicken"
           }
         ],
         "minecraft:biome_filter": {

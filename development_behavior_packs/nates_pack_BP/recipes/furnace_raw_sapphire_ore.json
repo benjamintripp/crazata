@@ -2,17 +2,17 @@
     "format_version": "1.20.10",
     "minecraft:recipe_furnace": {
       "description": {
-      "identifier": "nate:furnace_raw_saphire_ore"
+      "identifier": "nate:furnace_raw_sapphire_ore"
       },
   
       "unlock": [
         {
-          "item": "nate:raw_saphire_ore"
+          "item": "nate:raw_sapphire_ore"
         }
       ],
       "tags": ["furnace", "blast_furnace"],
-      "input": "nate:raw_saphire_ore",
-      "output": "nate:saphire"
+      "input": "nate:raw_sapphire_ore",
+      "output": "nate:sapphire"
     }
     
   }

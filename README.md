@@ -119,6 +119,17 @@ __Karate Chicken__
 A black belt karate chicken. Very agressive. It has it's patch and it's spritit patch.
 ![Karate Chicken](screenshots/karate_chicken.png)
 
+__Chicken Knight__
+
+A brave knight who just happens to be a chicken. Fully equiped with Chicken Armor and Chicken Sword.
+![Chicken Knight](screenshots/chicken_knight.png)
+
+__Fast Chicken__
+A really fast chicken. Looks just like a regular chicken.
+
+__Dophinsquid__
+Part dolphin, part squid. All Crazata. (Brendan's idea)
+![Dophinsquid](screenshots/dolphinsquid.png)
 
 ## New Vehicles
 
@@ -147,6 +158,11 @@ __Iron Mech__
 A mech made from an iron golem
 ![Iron Mech](screenshots/iron_mech.png)
 
+__Chicken Car__
+
+A chicken Car
+![Chicken Car](screenshots/chicken_car.png)
+
 
 ## New Swords
 ![Swords](screenshots/swords.png)
@@ -165,6 +181,8 @@ A mech made from an iron golem
 - Thunder Blade: Lightning strikes whatever mob you hit
 - Ultra Sword: Creates a block of ice
 - Crazata Sword: Official sword of Crazata
+- Golden Katana
+- Sapphire Sword: Be careful for poison
 
 ## New Food
 ![Food](screenshots/food.png)
@@ -184,6 +202,12 @@ __Jack__
 
 __Chicken__
 ![Chicken](screenshots/chicken_skin.png)
+
+__Karate__
+![Karate](screenshots/karate_skin.png)
+
+__Diamond__
+![Diamond](screenshots/diamond_skin.png)
 
 ## Other New Stuff
 
@@ -206,13 +230,13 @@ __Chicken Log__
 
 ![Chicken Log](screenshots/chicken_log.png)
 
-__Raw Saphire Ore__
+__Raw sapphire Ore__
 
-![Raw Saphire Ore](screenshots/raw_saphire_ore.png)
+![Raw sapphire Ore](screenshots/raw_sapphire_ore.png)
 
-__Saphire__
+__sapphire__
 
-![Saphire](screenshots/saphire.png)
+![sapphire](screenshots/sapphire.png)
 
 __Friend Finder__
 
@@ -231,6 +255,10 @@ Sometimes spawns a Mega Chicken
 __Black Belt__
 
 ![Black Belt](screenshots/black_belt.png)
+
+__Sapphire Armor__
+
+![Sapphire Armor](screenshots/sapphire_armor.png)
 
 
 ## TODO
