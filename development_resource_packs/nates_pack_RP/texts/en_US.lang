@@ -91,3 +91,5 @@ entity.nate:chicken_car.name=Chicken Car
 item.spawn_egg.entity.nate:chicken_car.name=Spawn Chicken Car
 entity.nate:spinning_chicken.name=Spinning Chicken
 item.spawn_egg.entity.nate:spinning_chicken.name=Spawn Spinning Chicken
+item.nate:bread_sword=Bread Sword
+item.nate:half_bread_sword=Bread Sword

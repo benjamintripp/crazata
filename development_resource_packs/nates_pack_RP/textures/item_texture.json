@@ -1,5 +1,11 @@
 {
 	"texture_data": {
+		"half_bread_sword": {
+			"textures": "textures/items/half_bread_sword.png"
+		},
+		"bread_sword": {
+			"textures": "textures/items/bread_sword.png"
+		},
 		"sapphire_boots": {
 			"textures": "textures/items/sapphire_boots.png"
 		},

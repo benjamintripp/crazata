@@ -188,6 +188,7 @@ A chicken Car
 - Crazata Sword: Official sword of Crazata
 - Golden Katana
 - Sapphire Sword: Be careful for poison
+- Bread Sword
 
 ## New Food
 ![Food](screenshots/food.png)
