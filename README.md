@@ -131,6 +131,11 @@ __Dophinsquid__
 Part dolphin, part squid. All Crazata. (Brendan's idea)
 ![Dophinsquid](screenshots/dolphinsquid.png)
 
+__Spinning Chicken__
+A chicken that spins. Just like Nate's fidget toy.
+![Spinning Chicken](screenshots/spinning_chicken.png)
+
+
 ## New Vehicles
 
 __Dadmobile__
