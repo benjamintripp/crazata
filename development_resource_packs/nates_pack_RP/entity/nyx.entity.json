@@ -60,7 +60,7 @@
 					"wolf_shaking": "controller.animation.wolf.shaking"
 				}
 			],
-			"render_controllers": ["controller.render.wolf"],
+			"render_controllers": ["controller.render.peach"],
 			"spawn_egg": {
 				"base_color": "#4d3101",
 				"overlay_color": "#e0e0e0"
