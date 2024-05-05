@@ -135,6 +135,11 @@ __Spinning Chicken__
 A chicken that spins. Just like Nate's fidget toy.
 ![Spinning Chicken](screenshots/spinning_chicken.png)
 
+__Chicken Trader (and Chicken Llama)__
+A trader that loves chickens and specializes in Crazata stuff.
+![Chicken Trader (and Chicken Llama)](screenshots/chicken_trader.png)
+
+
 
 ## New Vehicles
 
