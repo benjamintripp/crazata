@@ -13,6 +13,10 @@
 			"minecraft:icon": {
 				"texture": "chicken_boots"
 			},
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "armor_feet"
+			},
 			"minecraft:wearable": {
 				"slot": "slot.armor.feet",
 				"protection": 20

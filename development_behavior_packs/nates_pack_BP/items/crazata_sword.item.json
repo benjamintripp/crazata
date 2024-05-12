@@ -13,6 +13,10 @@
 			"minecraft:icon": {
 				"texture": "crazata_sword"
 			},
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "sword"
+			},
 			"minecraft:damage": 2000000,
 			"minecraft:digger": {
 				"destroy_speeds": [
