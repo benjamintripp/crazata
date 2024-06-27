@@ -271,6 +271,9 @@ __Sapphire Armor__
 
 ![Sapphire Armor](screenshots/sapphire_armor.png)
 
+__Golden Ender Dragon Armor__
+
+![Golden Ender Dragon Armor](screenshots/golden_ender_dragon_armor.png)
 
 ## TODO
 - Cheese
