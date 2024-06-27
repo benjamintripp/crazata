@@ -1,5 +1,20 @@
 {
 	"texture_data": {
+		"golden_ender_dragon_sword": {
+			"textures": "textures/items/golden_ender_dragon_sword.png"
+		},
+		"golden_ender_dragon_boots": {
+			"textures": "textures/items/golden_ender_dragon_boots.png"
+		},
+		"golden_ender_dragon_leggings": {
+			"textures": "textures/items/golden_ender_dragon_leggings.png"
+		},
+		"golden_ender_dragon_chestplate": {
+			"textures": "textures/items/golden_ender_dragon_chestplate.png"
+		},
+		"golden_ender_dragon_helmet": {
+			"textures": "textures/items/golden_ender_dragon_helmet.png"
+		},
 		"half_bread_sword": {
 			"textures": "textures/items/half_bread_sword.png"
 		},

@@ -14,6 +14,10 @@
 				"texture": "sapphire_sword"
 			},
 			"minecraft:damage": 16,
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "sword"
+			},
 			"minecraft:can_destroy_in_creative": false,
 			"minecraft:hand_equipped": true,
 			"minecraft:durability": {

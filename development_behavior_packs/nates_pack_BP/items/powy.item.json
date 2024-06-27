@@ -16,6 +16,10 @@
 			"minecraft:damage": 20,
 			"minecraft:can_destroy_in_creative": false,
 			"minecraft:hand_equipped": true,
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "sword"
+			},
 			"minecraft:durability": {
 				"max_durability": 2100
 			},
