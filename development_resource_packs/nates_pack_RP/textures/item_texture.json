@@ -134,6 +134,9 @@
 		},
 		"chicken_car_spawn_egg": {
 			"textures": ["textures/items/chicken_car_spawn_egg"]
+		},
+		"steel": {
+			"textures": ["textures/items/steel"]
 		}
 	},
 	"resource_pack_name": "vanilla",

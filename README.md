@@ -139,6 +139,9 @@ __Chicken Trader (and Chicken Llama)__
 A trader that loves chickens and specializes in Crazata stuff.
 ![Chicken Trader (and Chicken Llama)](screenshots/chicken_trader.png)
 
+__Golden Ender Dragon__
+In Crazata the Ender Dragon is Golden
+![Golden Ender Dragon](screenshots/golden_ender_dragon.png)
 
 
 ## New Vehicles
@@ -220,18 +223,16 @@ __Karate__
 __Diamond__
 ![Diamond](screenshots/diamond_skin.png)
 
+__Tree__
+![Tree](screenshots/tree_skin.png)
+
+__Exercise__
+![Exercise](screenshots/exercise_skin.png)
+
 ## Other New Stuff
 
 __Nether Wand__
 ![Nether Wand](screenshots/netherwand.png)
-
-__Chicken Armor__
-
-![Chicken Armor](screenshots/chickenarmor.png)
-
-__Too Tall Hat__
-
-![Too Tall Hat](screenshots/too_tall_hat.png)
 
 __Chicken Pickaxe__
 
@@ -253,6 +254,20 @@ __Friend Finder__
 
 Teleports you to a random other player
 ![Friend Finder](screenshots/friend_finder.png)
+
+__Steel__
+
+![Steel](screenshots/steel.png)
+
+## Armor/Wearables
+
+__Chicken Armor__
+
+![Chicken Armor](screenshots/chickenarmor.png)
+
+__Too Tall Hat__
+
+![Too Tall Hat](screenshots/too_tall_hat.png)
 
 __Tree Armor__
 

@@ -103,3 +103,5 @@ item.nate:golden_ender_dragon_chestplate=Golden Ender Dragon Chestplate
 item.nate:golden_ender_dragon_leggings=Golden Ender Dragon Leggings
 item.nate:golden_ender_dragon_boots=Golden Ender Dragon Boots
 item.nate:golden_ender_dragon_sword=Golden Ender Dragon Sword
+entity.ender_dragon.name=Golden Ender Dragon
+item.nate:steel=steel
