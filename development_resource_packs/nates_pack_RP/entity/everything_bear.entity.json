@@ -1,0 +1,53 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nate:everything_bear",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/everything_bear/everything_bear",
+				"lazy": "textures/entity/everything_bear/everything_bear",
+				"worried": "textures/entity/everything_bear/everything_bear",
+				"playful": "textures/entity/everything_bear/everything_bear",
+				"brown": "textures/entity/everything_bear/everything_bear",
+				"weak": "textures/entity/everything_bear/everything_bear",
+				"aggressive": "textures/entity/everything_bear/everything_bear",
+				"sneezy": "textures/entity/everything_bear/everything_bear"
+			},
+			"geometry": {
+				"default": "geometry.everything_bear"
+			},
+			"animations": {
+				"unhappy": "animation.everything_bear.unhappy",
+				"sneezing": "animation.everything_bear.sneezing",
+				"walk": "animation.everything_bear.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.everything_bear.baby_transform",
+				"sitting": "animation.everything_bear.sitting",
+				"rolling": "animation.everything_bear.rolling",
+				"lying": "animation.everything_bear.lying"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.panda.move"
+				},
+				{
+					"unhappy": "controller.animation.panda.unhappy"
+				},
+				{
+					"sneezing": "controller.animation.panda.sneezing"
+				},
+				{
+					"baby": "controller.animation.panda.baby"
+				}
+			],
+			"render_controllers": ["controller.render.panda"],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#775000"
+			}
+		}
+	}
+}
