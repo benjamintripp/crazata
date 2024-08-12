@@ -1,5 +1,14 @@
 {
 	"texture_data": {
+		"plasma_stone": {
+			"textures": "textures/items/plasma_stone.png"
+		},
+		"warden_sword": {
+			"textures": "textures/items/warden_sword.png"
+		},
+		"steel_sword": {
+			"textures": "textures/items/steel_sword.png"
+		},
 		"golden_ender_dragon_sword": {
 			"textures": "textures/items/golden_ender_dragon_sword.png"
 		},

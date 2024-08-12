@@ -14,7 +14,8 @@
 				"brown": "textures/entity/everything_bear/everything_bear",
 				"weak": "textures/entity/everything_bear/everything_bear",
 				"aggressive": "textures/entity/everything_bear/everything_bear",
-				"sneezy": "textures/entity/everything_bear/everything_bear"
+				"sneezy": "textures/entity/everything_bear/everything_bear",
+				"tame": "textures/entity/everything_bear/tame"
 			},
 			"geometry": {
 				"default": "geometry.everything_bear"
@@ -43,7 +44,7 @@
 					"baby": "controller.animation.panda.baby"
 				}
 			],
-			"render_controllers": ["controller.render.panda"],
+			"render_controllers": ["controller.render.everything_bear"],
 			"spawn_egg": {
 				"base_color": "#000000",
 				"overlay_color": "#775000"

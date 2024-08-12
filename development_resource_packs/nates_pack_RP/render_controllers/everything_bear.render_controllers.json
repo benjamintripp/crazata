@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.everything_bear": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.default",
+            "Texture.lazy",
+            "Texture.worried",
+            "Texture.playful",
+            "Texture.brown",
+            "Texture.weak",
+            "Texture.aggressive"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "query.is_tamed ? Texture.tame :  Array.skins[query.variant]" ]
+    }
+  }
+}

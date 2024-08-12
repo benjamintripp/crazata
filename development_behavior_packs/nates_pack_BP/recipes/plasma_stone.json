@@ -1,0 +1,18 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nate:plasma_stone"
+		},
+		"tags": ["crafting_table"],
+		"pattern": ["eee","eee",  "eee"],
+		"key": {
+			"e": {
+				"item": "minecraft:lava_bucket"
+			}
+		},
+		"result": {
+			"item": "nate:plasma_stone"
+		}
+	}
+}

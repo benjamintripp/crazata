@@ -1,0 +1,46 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nate:plasma_stone",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "plasma_stone"
+			},
+			"minecraft:glint": true,
+			"minecraft:damage": 200000,
+			"minecraft:digger": {
+				"destroy_speeds": [
+					{
+						"speed": 500,
+						"block": {
+							"tags": "query.any_tag('stone')"
+						}
+					}
+				]
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:enchantable": {
+				"slot": "all",
+				"value": 50
+			},
+			"minecraft:food": {
+				"nutrition": 200,
+				"saturation_modifier": 5
+			},
+			"minecraft:use_modifiers": {
+				"movement_modifier": 0.32,
+				"use_duration": 0.1
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:fuel": {
+				"duration": 8000
+			}
+		}
+	}
+}

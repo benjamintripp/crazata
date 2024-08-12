@@ -143,6 +143,9 @@ __Golden Ender Dragon__
 In Crazata the Ender Dragon is Golden
 ![Golden Ender Dragon](screenshots/golden_ender_dragon.png)
 
+__Everything Bear__
+Jack's favroite stuffed animal `Everything Bear` come to life in Minecraft. 
+![Everything Bear](screenshots/everything_bear.png)
 
 ## New Vehicles
 
@@ -197,6 +200,8 @@ A chicken Car
 - Golden Katana
 - Sapphire Sword: Be careful for poison
 - Bread Sword
+- Steel Sword
+- Warden Sword
 
 ## New Food
 ![Food](screenshots/food.png)
@@ -258,6 +263,10 @@ Teleports you to a random other player
 __Steel__
 
 ![Steel](screenshots/steel.png)
+
+__Plasma Stone__
+
+![Plasma Stone](screenshots/plasma_stone.png)
 
 ## Armor/Wearables
 

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nate:steel_sword"
+		},
+		"tags": ["crafting_table"],
+		"pattern": ["B", "B", "#"],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"B": {
+				"item": "nate:steel_ingot"
+			}
+		},
+		"result": {
+			"item": "nate:steel_sword"
+		}
+	}
+}
