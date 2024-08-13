@@ -110,3 +110,6 @@ item.spawn_egg.entity.nate:everything_bear.name=Spawn Everything Bear
 item.nate:steel_sword=Steel Sword
 item.nate:warden_sword=Warden Sword
 item.nate:plasma_stone=Plasma Stone
+entity.nate:long_horse.name=Long Horse
+item.spawn_egg.entity.nate:long_horse.name=Spawn Long Horse
+action.hint.exit.nate:long_horse=Tap sneak to dismount

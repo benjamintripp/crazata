@@ -147,6 +147,10 @@ __Everything Bear__
 Jack's favroite stuffed animal `Everything Bear` come to life in Minecraft. 
 ![Everything Bear](screenshots/everything_bear.png)
 
+__Long Horse__
+A long horse you can ride with a buddy
+![Long Horse](screenshots/long_horse.png)
+
 ## New Vehicles
 
 __Dadmobile__
