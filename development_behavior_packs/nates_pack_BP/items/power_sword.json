@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.30",
+	"format_version": "1.21.10",
 	"minecraft:item": {
 		"description": {
 			"identifier": "nate:power_sword",
@@ -19,35 +19,16 @@
 			},
 				"max_durability": 2147483647
 			},
-			"minecraft:damage": 2147483647,
+			"minecraft:damage": 200,
 			"minecraft:enchantable": {
 				"value": 10,
 				"slot": "sword"
 			},
-			"minecraft:icon": {
-				"texture": "power_sword"
-			},
+			"minecraft:icon": "power_sword",
 			"minecraft:display_name": {
 				"value": "Power Sword"
 			},
-			"minecraft:weapon": {
-				"on_hurt_entity": {
-					"event": "nate:power_sword.slime"
-				}
-			}
-		},
-		"events": {
-			"nate:power_sword.slime": {
-				"sequence":[
-					{
-						"run_command":{
-							"command":[
-								"setblock ^ ^2 ^1 slime"
-							]
-						}
-					}
-				]
-			}
+			"minecraft:custom_components": ["nate:slime"]
 		}
 	}
 }

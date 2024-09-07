@@ -1,5 +1,5 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.12.0",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "nate:ritz"
@@ -10,17 +10,15 @@
 		"pattern": [
 			"WWW",
 			"WWW",
-            "WWW"
+			"WWW"
 		],
 		"key": {
 			"W": {
 				"item": "minecraft:wheat"
 			}
 		},
-		"result": [
-			{
-				"item": "nate:ritz"
-			}
-		]
+		"result": {
+			"item": "nate:ritz"
+		}
 	}
 }

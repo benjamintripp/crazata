@@ -12,13 +12,31 @@
 			"type": "data",
 			"uuid": "fa26e2ea-e7c8-4331-844c-a0a6a37edff8",
 			"version": [1, 0, 7]
+		},
+		{
+			"description": "Script resources",
+			"type": "script",
+			"language": "javascript",
+			"uuid": "f8a265fa-1261-423e-adae-f932bf038024",
+			"version": [1, 0, 7],
+			"entry": "scripts/main.js"
 		}
+
 	],
 	"dependencies": [
 		{
 			"uuid": "e5cbd3ce-8a65-4ecb-baaf-83e6b7c5866d",
 			"version": [1, 0, 7]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.10.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
 		}
+
 	],
 	"metadata": {
 		"generated_with": {

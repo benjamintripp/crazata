@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.30",
+	"format_version": "1.21.10",
 	"minecraft:item": {
 		"description": {
 			"identifier": "nate:bee_blade",
@@ -24,47 +24,8 @@
 				"value": 10,
 				"slot": "sword"
 			},
-			"minecraft:icon": {
-				"texture": "bee_blade"
-			},
-			"minecraft:display_name": {
-				"value": "Bee Blade"
-			},
-			"minecraft:weapon": {
-				"on_hurt_entity": {
-					"event": "nate:bee_blade.buzz"
-				},
-				"on_hit_block": {
-					"event": "nate:bee_blade.buzz"
-				}
-			},
-			"minecraft:on_use_on":{
-				"on_use_on": {
-					"event": "nate:bee_blade.buzz",
-					"target": "block"
-				}
-			}
-		},
-		"events": {
-			"nate:bee_blade.buzz": {
-				"sequence":[
-					{
-						"randomize": [
-							{
-								"weight": 1,
-								"run_command":{
-									"command":[
-										"summon bee ^ ^2 ^"
-									]
-								}
-							},
-							{
-								"weight": 4
-							}
-						]
-					}
-				]
-			}
+			"minecraft:icon": "bee_blade",
+			"minecraft:custom_components": ["nate:buzz"]
 		}
 	}
 }

@@ -14,7 +14,7 @@
 				"texture": "warden_sword"
 			},
 			"minecraft:glint": true,
-			"minecraft:damage": 10000,
+			"minecraft:damage": 200,
 			"minecraft:can_destroy_in_creative": false,
 			"minecraft:hand_equipped": true,
 			"minecraft:enchantable": {

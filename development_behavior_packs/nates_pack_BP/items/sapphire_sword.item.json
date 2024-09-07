@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.30",
+	"format_version": "1.21.10",
 	"minecraft:item": {
 		"description": {
 			"identifier": "nate:sapphire_sword",
@@ -10,9 +10,7 @@
 		},
 		"components": {
 			"minecraft:max_stack_size": 1,
-			"minecraft:icon": {
-				"texture": "sapphire_sword"
-			},
+			"minecraft:icon": "sapphire_sword",
 			"minecraft:damage": 16,
 			"minecraft:enchantable": {
 				"value": 10,
@@ -33,24 +31,7 @@
 					}
 				]
 			},
-			"minecraft:weapon": {
-				"on_hurt_entity": {
-					"event": "nate:sapphire_sword.poison"
-				}
-			}
-		},
-		"events": {
-			"nate:sapphire_sword.poison": {
-				"sequence":[
-					{
-						"run_command":{
-							"command":[
-								"effect @e[r=2] poison 5 1"
-							]
-						}
-					}
-				]
-			}
+			"minecraft:custom_components": ["nate:poison"]
 		}
 	}
 }

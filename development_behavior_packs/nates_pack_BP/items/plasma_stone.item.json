@@ -13,7 +13,7 @@
 				"texture": "plasma_stone"
 			},
 			"minecraft:glint": true,
-			"minecraft:damage": 200000,
+			"minecraft:damage": 200,
 			"minecraft:digger": {
 				"destroy_speeds": [
 					{

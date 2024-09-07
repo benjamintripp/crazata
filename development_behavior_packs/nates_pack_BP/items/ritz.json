@@ -1,29 +1,29 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.10",
 	"minecraft:item": {
 		"description": {
 			"identifier": "nate:ritz",
-			"category": "equipment"
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
-			"minecraft:use_duration": 1.5,
+
 			"minecraft:max_stack_size": 64,
 			"minecraft:food": {
 				"nutrition": 2,
 				"can_always_eat": false,
-				"saturation_modifier": "normal"
+				"saturation_modifier": 2
+			},
+			"minecraft:use_modifiers": {
+				"movement_modifier": 0.32,
+				"use_duration": 1.6
 			},
 			"minecraft:use_animation": "eat",
-			"minecraft:icon": {
-				"texture": "ritz"
-			},
+			"minecraft:icon":  "ritz",
 			"minecraft:display_name": {
 				"value": "ritz cracker"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.cookedFood"
 			}
-		},
-		"events": {}
+		}
 	}
 }
