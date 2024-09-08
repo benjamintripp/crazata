@@ -1,5 +1,17 @@
 {
 	"texture_data": {
+		"skeleton_boots": {
+			"textures": "textures/items/skeleton_boots.png"
+		},
+		"skeleton_leggings": {
+			"textures": "textures/items/skeleton_leggings.png"
+		},
+		"skeleton_chestplate": {
+			"textures": "textures/items/skeleton_chestplate.png"
+		},
+		"skeleton_helmet": {
+			"textures": "textures/items/skeleton_helmet.png"
+		},
 		"plasma_stone": {
 			"textures": "textures/items/plasma_stone.png"
 		},

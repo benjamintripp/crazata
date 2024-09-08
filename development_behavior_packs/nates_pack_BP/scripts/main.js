@@ -80,7 +80,7 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
     //for sapphire sword
     initEvent.itemComponentRegistry.registerCustomComponent("nate:poison", {
         onHitEntity(arg) {
-            arg.hitEntity.addEffect("poison", 100)
+            arg.hitEntity.addEffect("poison", 20000000)
         },
     });
     
@@ -158,11 +158,11 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
     });
 
     //for yeet sword
-    initEvent.itemComponentRegistry.registerCustomComponent("nate:yeet", {
+    initEvent.itemComponentRegistry.registerCustomComponent("nate:launch", {
         onHitEntity(arg) {
 
             const lookDirection = arg.attackingEntity.getViewDirection();
-            arg.hitEntity.applyKnockback(lookDirection.x,lookDirection.z,8,1)
+            arg.hitEntity.applyKnockback(lookDirection.x,lookDirection.z,15,1)
         },
     });
 
