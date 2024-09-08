@@ -117,3 +117,5 @@ item.nate:skeleton_helmet=Skeleton Helmet
 item.nate:skeleton_chestplate=Skelton Chestplate
 item.nate:skeleton_leggings=Skeleton Leggings
 item.nate:skeleton_boots=Skeleton Boots
+entity.nate:giant_golem.name=Giant Golem
+item.spawn_egg.entity.nate:giant_golem.name=Spawn Giant Golem

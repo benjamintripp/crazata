@@ -1,0 +1,146 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nate:giant_golem",
+			"runtime_identifier": "minecraft:iron_golem",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"nate:giant": {
+				"minecraft:scale": {
+					"value": 10
+				},
+				"minecraft:input_ground_controlled": {},
+				"minecraft:behavior.player_ride_tamed": {},
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"seats": [
+						{
+						"position": [0, 2.1, 0.3]
+						}
+					]
+				},
+				"minecraft:behavior.mount_pathing": {
+					"priority": 2,
+					"speed_multiplier": 1,
+					"target_dist": 4,
+					"track_target": true
+				}
+			},
+			"nate:regular": {
+				"minecraft:scale": {
+					"value": 1
+				}
+			}
+
+		},
+		"components": {
+			"minecraft:nameable": {},
+			"minecraft:collision_box": {
+				"width": 1.4,
+				"height": 2.9
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/iron_golem.json"
+			},
+			"minecraft:health": {
+				"value": 100,
+				"max": 100
+			},
+			"minecraft:navigation.generic": {},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:movement": {
+				"value": 0.6
+			},
+			"minecraft:can_power_jump": {},
+			"minecraft:horse.jump_strength": {
+				"value": 2
+			},
+			"minecraft:movement.jump": {},
+			"minecraft:jump.dynamic": {},
+			"minecraft:can_climb": {},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "fall",
+					"deals_damage": false
+				}
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:leashable": {
+				"soft_distance": 4,
+				"hard_distance": 6,
+				"max_distance": 10
+			},
+			"minecraft:balloonable": {
+				"mass": 2
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:interact": {
+				"interactions": [
+				{
+					"play_sounds": "twinkle",
+					"on_interact": {
+					"filters": {
+						"all_of": [
+						{ "test": "is_family", "subject": "other", "value": "player" },
+						{ "test": "is_sneaking", "subject": "other", "value": false },
+						{ "test": "has_equipment", "domain": "hand", "subject": "other", "value": "nate:chicken_ingot" }
+						]
+					},
+					"event": "nate:get_big",
+					"target": "self"
+					},
+					"use_item": true
+				}
+				]
+			}
+		},
+		"events": {
+
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"nate:regular"
+					]
+				}
+			},
+
+			"nate:get_big": {
+				"add": {
+					"component_groups": [
+						"nate:giant"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"nate:regular"
+					]
+				}
+			}
+		}
+	}
+}
