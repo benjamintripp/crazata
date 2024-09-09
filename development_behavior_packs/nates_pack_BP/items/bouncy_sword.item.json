@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nate:bouncy_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "bouncy_sword",
+			"minecraft:damage": 0,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:hand_equipped": true,
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 15
+			},
+			"minecraft:durability": {
+				"max_durability": 848
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["red_mushroom"],
+						"repair_amount": 212
+					}
+				]
+			},
+			"minecraft:custom_components": ["nate:bounce"]
+		}
+	}
+}

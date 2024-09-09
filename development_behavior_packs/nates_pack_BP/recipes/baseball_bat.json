@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nate:baseball_bat"
+		},
+		"tags": ["crafting_table"],
+		"pattern": ["E", "E", "#"],
+		"key": {
+			"#": {
+				"item": "minecraft:log"
+			},
+			"E": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "nate:baseball_bat"
+		}
+	}
+}

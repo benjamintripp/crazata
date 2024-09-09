@@ -119,3 +119,6 @@ item.nate:skeleton_leggings=Skeleton Leggings
 item.nate:skeleton_boots=Skeleton Boots
 entity.nate:giant_golem.name=Giant Golem
 item.spawn_egg.entity.nate:giant_golem.name=Spawn Giant Golem
+item.nate:bouncy_sword=Bouncy Sword
+item.nate:baseball_bat=Baseball Bat
+item.nate:medicinal_sword=Medicinal Sword

@@ -150,15 +150,15 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
         },
     });
 
-    //for bouncu sword
+    //for bouncy sword
     initEvent.itemComponentRegistry.registerCustomComponent("nate:bounce", {
         onHitEntity(arg) {
             arg.hitEntity.applyKnockback(0,0,0,3)
         },
     });
 
-    //for yeet sword
-    initEvent.itemComponentRegistry.registerCustomComponent("nate:launch", {
+    //for baseball bat
+    initEvent.itemComponentRegistry.registerCustomComponent("nate:bat", {
         onHitEntity(arg) {
 
             const lookDirection = arg.attackingEntity.getViewDirection();
@@ -167,7 +167,7 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
     });
 
     //for medicinal bat
-    initEvent.itemComponentRegistry.registerCustomComponent("nate:bat", {
+    initEvent.itemComponentRegistry.registerCustomComponent("nate:healsword", {
         onHitEntity(arg) {
             const current = arg.hitEntity.getComponent(EntityComponentTypes.Health).currentValue
             arg.hitEntity.getComponent(EntityComponentTypes.Health).setCurrentValue(current + 5)
