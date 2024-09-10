@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nate:medicinal_sword"
+		},
+		"tags": ["crafting_table"],
+		"pattern": ["E", "E", "#"],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"E": {
+				"item": "minecraft:apple"
+			}
+		},
+		"result": {
+			"item": "nate:medicinal_sword"
+		}
+	}
+}

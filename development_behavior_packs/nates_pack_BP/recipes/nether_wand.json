@@ -1,5 +1,5 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.12.0",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "nate:nether_wand"
@@ -20,10 +20,7 @@
 				"item": "minecraft:flint_and_steel"
 			}
 		},
-		"result": [
-			{
+		"result": {
 				"item": "nate:nether_wand"
-			}
-		]
-	}
+			}	}
 }

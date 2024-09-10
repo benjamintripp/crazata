@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nate:medicinal_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "medicinal_sword",
+			"minecraft:damage": 0,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:hand_equipped": true,
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 35
+			},
+			"minecraft:durability": {
+				"max_durability": 805
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["bread"],
+						"repair_amount": 201
+					}
+				]
+			},
+			"minecraft:custom_components": ["nate:healsword"]
+		}
+	}
+}

@@ -1,5 +1,35 @@
 {
 	"texture_data": {
+		"medicinal_sword": {
+			"textures": "textures/items/medicinal_sword.png"
+		},
+		"baseball_bat": {
+			"textures": "textures/items/baseball_bat.png"
+		},
+		"bouncy_sword": {
+			"textures": "textures/items/bouncy_sword.png"
+		},
+		"skeleton_boots": {
+			"textures": "textures/items/skeleton_boots.png"
+		},
+		"skeleton_leggings": {
+			"textures": "textures/items/skeleton_leggings.png"
+		},
+		"skeleton_chestplate": {
+			"textures": "textures/items/skeleton_chestplate.png"
+		},
+		"skeleton_helmet": {
+			"textures": "textures/items/skeleton_helmet.png"
+		},
+		"plasma_stone": {
+			"textures": "textures/items/plasma_stone.png"
+		},
+		"warden_sword": {
+			"textures": "textures/items/warden_sword.png"
+		},
+		"steel_sword": {
+			"textures": "textures/items/steel_sword.png"
+		},
 		"golden_ender_dragon_sword": {
 			"textures": "textures/items/golden_ender_dragon_sword.png"
 		},
@@ -134,6 +164,9 @@
 		},
 		"chicken_car_spawn_egg": {
 			"textures": ["textures/items/chicken_car_spawn_egg"]
+		},
+		"steel": {
+			"textures": ["textures/items/steel"]
 		}
 	},
 	"resource_pack_name": "vanilla",

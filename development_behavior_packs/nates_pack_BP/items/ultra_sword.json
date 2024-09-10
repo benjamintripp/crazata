@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.30",
+	"format_version": "1.21.10",
 	"minecraft:item": {
 		"description": {
 			"identifier": "nate:ultra_sword",
@@ -19,35 +19,17 @@
 			},
 				"max_durability": 2147483647
 			},
-			"minecraft:damage": 2147483647,
+			"minecraft:damage": 200,
 			"minecraft:enchantable": {
 				"value": 10,
 				"slot": "sword"
 			},
-			"minecraft:icon": {
-				"texture": "ultra_sword"
-			},
+			"minecraft:icon": "ultra_sword",
 			"minecraft:display_name": {
 				"value": "ULTRA SWORD"
 			},
-			"minecraft:weapon": {
-				"on_hurt_entity": {
-					"event": "nate:ultra_sword.freeze"
-				}
-			}
-		},
-		"events": {
-			"nate:ultra_sword.freeze": {
-				"sequence":[
-					{
-						"run_command":{
-							"command":[
-								"setblock ^ ^-1 ^ ice"
-							]
-						}
-					}
-				]
-			}
+			"minecraft:custom_components": ["nate:freeze"]
+
 		}
 	}
 }

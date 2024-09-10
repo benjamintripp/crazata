@@ -17,7 +17,7 @@
 				"value": 10,
 				"slot": "sword"
 			},
-			"minecraft:damage": 2000000,
+			"minecraft:damage": 75,
 			"minecraft:digger": {
 				"destroy_speeds": [
 					{

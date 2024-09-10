@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.30",
+	"format_version": "1.21.10",
 	"minecraft:item": {
 		"description": {
 			"identifier": "nate:thunder_blade",
@@ -9,7 +9,7 @@
 			}
 		},
 		"components": {
-
+			"minecraft:icon": "thunder_blade",
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
 			"minecraft:durability": {
@@ -24,37 +24,10 @@
 				"value": 10,
 				"slot": "sword"
 			},
-			"minecraft:icon": {
-				"texture": "thunder_blade"
-			},
 			"minecraft:display_name": {
 				"value": "Thunder Blade"
 			},
-			"minecraft:weapon": {
-				"on_hurt_entity": {
-					"event": "nate:thunder_blade.storm"
-				}
-			}
-		},
-		"events": {
-			"nate:thunder_blade.storm": {
-				"sequence":[
-					{
-						"run_command":{
-							"command":[
-								"weather thunder 300"
-							]
-						}
-					},
-					{
-						"run_command":{
-							"command":[
-								"summon lightning_bolt ^ ^ ^3"
-							]
-						}
-					}
-				]
-			}
+			"minecraft:custom_components": ["nate:thunder_blast"]
 		}
 	}
 }
