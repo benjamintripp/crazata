@@ -4,28 +4,28 @@
 		"name": "pack.name",
 		"description": "pack.description",
 		"uuid": "ccd39639-c3f7-467d-9a79-18a974e1f98a",
-		"version": [1, 0, 7],
+		"version": [1, 0, 8],
 		"min_engine_version": [1, 16, 0]
 	},
 	"modules": [
 		{
 			"type": "data",
 			"uuid": "fa26e2ea-e7c8-4331-844c-a0a6a37edff8",
-			"version": [1, 0, 7]
+			"version": [1, 0, 8]
 		},
 		{
 			"description": "Script resources",
 			"type": "script",
 			"language": "javascript",
 			"uuid": "f8a265fa-1261-423e-adae-f932bf038024",
-			"version": [1, 0, 7],
+			"version": [1, 0, 8],
 			"entry": "scripts/main.js"
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "e5cbd3ce-8a65-4ecb-baaf-83e6b7c5866d",
-			"version": [1, 0, 7]
+			"version": [1, 0, 8]
 		},
 		{
 			"module_name": "@minecraft/server",
