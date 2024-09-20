@@ -4,6 +4,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"bouncy_stone": {
+			"textures": "textures/blocks/bouncy_stone.png"
+		},
 		"raw_sapphire_ore": {
 			"textures": "textures/blocks/raw_sapphire_ore.png"
 		},

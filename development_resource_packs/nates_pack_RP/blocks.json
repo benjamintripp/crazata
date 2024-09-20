@@ -1,5 +1,8 @@
 {
-	"format_version": "1.19.30", 
+	"bouncy_stone": {
+		"sound": "stone"
+	},
+	"format_version": "1.19.30",
 	"raw_sapphire_ore": {
 		"sound": "amethyst_block"
 	},

@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nate:bouncy_stone",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.stone"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:geometry": "geometry.bouncy_stone",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "bouncy_stone",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:map_color": "#88ac82",
+			"minecraft:custom_components": ["nate:bounce_block"]
+		}
+	}
+}

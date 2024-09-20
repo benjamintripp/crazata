@@ -175,6 +175,16 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
     });
     
 
+    initEvent.blockComponentRegistry.registerCustomComponent("nate:bounce_block", {
+
+        onStepOn(arg) {
+            if (arg.entity.hasComponent("minecraft:health"))
+            {
+                arg.entity.applyKnockback(0,0,0,3)
+            }
+
+        }
+    });
 
 
 });

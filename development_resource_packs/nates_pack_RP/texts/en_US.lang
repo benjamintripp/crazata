@@ -122,3 +122,4 @@ item.spawn_egg.entity.nate:giant_golem.name=Spawn Giant Golem
 item.nate:bouncy_sword=Bouncy Sword
 item.nate:baseball_bat=Baseball Bat
 item.nate:medicinal_sword=Medicinal Sword
+tile.nate:bouncy_stone.name=Bouncy Stone
