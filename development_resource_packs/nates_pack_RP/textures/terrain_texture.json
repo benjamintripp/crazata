@@ -4,6 +4,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"speed_boost": {
+			"textures": "textures/blocks/speed_boost.png"
+		},
 		"bouncy_stone": {
 			"textures": "textures/blocks/bouncy_stone.png"
 		},

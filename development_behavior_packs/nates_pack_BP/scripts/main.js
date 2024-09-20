@@ -186,5 +186,21 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
         }
     });
 
+    initEvent.blockComponentRegistry.registerCustomComponent("nate:speed_boost", {
+
+        onStepOn(arg) {
+            if (arg.entity.typeId == "minecraft:player")
+            {   
+                arg.entity.sendMessage("Speed Boost. Toggle sprint/walk to disable.");
+                const speed = arg.entity.getComponent(EntityComponentTypes.Movement).currentValue
+                arg.entity.getComponent(EntityComponentTypes.Movement).setCurrentValue(speed * 2)
+            }
+
+        }
+    });
+
+
+
+
 
 });

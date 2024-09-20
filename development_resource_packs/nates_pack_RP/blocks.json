@@ -1,4 +1,7 @@
 {
+	"speed_boost": {
+		"sound": "metal"
+	},
 	"bouncy_stone": {
 		"sound": "stone"
 	},
