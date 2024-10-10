@@ -124,3 +124,5 @@ item.nate:baseball_bat=Baseball Bat
 item.nate:medicinal_sword=Medicinal Sword
 tile.nate:bouncy_stone.name=Bouncy Stone
 tile.nate:speed_boost.name=Speed Boost
+entity.nate:tall_chicken.name=Tall Chicken
+item.spawn_egg.entity.nate:tall_chicken.name=Spawn Tall Chicken

@@ -142,3 +142,7 @@ A long horse you can ride with a buddy
 __Giant Golemn__
 A giant golemn you can ride
 ![Giant Golemn](screenshots/giant_golemn.png)
+
+__Tall Chicken__
+A very tall chicken
+![Tall Chicken](screenshots/tall_chicken.png)
