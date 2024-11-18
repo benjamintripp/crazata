@@ -146,3 +146,7 @@ A giant golemn you can ride
 __Tall Chicken__
 A very tall chicken
 ![Tall Chicken](screenshots/tall_chicken.png)
+
+__Jumping Cow__
+A green cow that loves to jump
+![Jumping Cow](screenshots/jumping_cow.png)
