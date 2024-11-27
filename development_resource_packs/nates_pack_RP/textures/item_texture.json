@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"brick_sword": {
+			"textures": "textures/items/brick_sword.png"
+		},
 		"medicinal_sword": {
 			"textures": "textures/items/medicinal_sword.png"
 		},
@@ -167,6 +170,9 @@
 		},
 		"steel": {
 			"textures": ["textures/items/steel"]
+		},
+		"brick": {
+			"textures": ["textures/items/brick"]
 		}
 	},
 	"resource_pack_name": "vanilla",

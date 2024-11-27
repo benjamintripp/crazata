@@ -28,7 +28,7 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
         // Calculate the spawn position roughly at the sword's hand position
         const spawnPosition = {
             x: playerPosition.x + lookDirection.x * 0.8, // Slightly in front of the player
-            y: playerPosition.y + 1.2,  // Approximate hand level
+            y: playerPosition.y + 1.3,  // Approximate hand level
             z: playerPosition.z + lookDirection.z * 0.8
         };
     
@@ -58,6 +58,13 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
         onUse(arg) {
             const player = arg.source;
             shootProjectile(player,"minecraft:egg", 2)
+        }
+    });
+
+    initEvent.itemComponentRegistry.registerCustomComponent("nate:shoot_brick", {
+        onUse(arg) {
+            const player = arg.source;
+            shootProjectile(player,"nate:brick", 1.5)
         }
     });
 
