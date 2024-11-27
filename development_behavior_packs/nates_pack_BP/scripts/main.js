@@ -206,6 +206,47 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
         }
     });
 
+    //for nether sword
+    initEvent.itemComponentRegistry.registerCustomComponent("nate:netherzap", {
+        onHitEntity(arg) {
+            
+            const currentDimension = arg.hitEntity.dimension.id;
+            const currLocation =  arg.hitEntity.location;
+            var destX;
+            var destY;
+            var destZ;
+            var destDimension;
+            // Ensure the current dimension is the Overworld
+            if (currentDimension === "minecraft:overworld") {
+
+                destX = Math.floor(currLocation.x / 8);
+                 destY = currLocation.y; // Keep Y coordinate unchanged
+                 destZ = Math.floor(currLocation.z / 8);
+                
+                 destDimension = world.getDimension("minecraft:nether");
+
+            } else if (currentDimension === "minecraft:nether") {
+
+                destX = Math.floor(currLocation.x) * 8;
+                 destY = currLocation.y; // Keep Y coordinate unchanged
+                 destZ = Math.floor(currLocation.z) * 8;
+                
+                 destDimension = world.getDimension("minecraft:overworld");
+
+            }
+
+            if (currentDimension !== "minecraft:the_end") {
+                arg.hitEntity.teleport(
+                    { x: destX, y: destY, z: destZ },
+                    { dimension: destDimension }
+                );
+            }
+
+
+        },
+    });
+    
+
 
 
 

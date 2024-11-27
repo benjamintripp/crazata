@@ -27,3 +27,4 @@
 - Baseball Bat - Launches mods far away
 - Medicinal Sword - Heal your friends by hitting them on the head
 - Brick Sword - A sword made of bricks that can shoot bricks
+- Nether Sword - Teleport your enemies to the Nether with one hit
