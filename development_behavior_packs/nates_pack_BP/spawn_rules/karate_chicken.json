@@ -2,7 +2,7 @@
   "format_version": "1.8.0",
   "minecraft:spawn_rules": {
     "description": {
-      "identifier": "minecraft:karate_chicken",
+      "identifier": "nate:karate_chicken",
       "population_control": "animal"
     },
     "conditions": [

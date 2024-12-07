@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"super_sword": {
+			"textures": "textures/items/super_sword.png"
+		},
 		"nether_sword": {
 			"textures": "textures/items/nether_sword.png"
 		},

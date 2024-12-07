@@ -130,3 +130,6 @@ entity.nate:jumping_cow.name=Jumping Cow
 item.spawn_egg.entity.nate:jumping_cow.name=Spawn Jumping Cow
 item.nate:brick_sword=Brick Sword
 item.nate:nether_sword=Nether Sword
+entity.nate:magma_chicken.name=Magma Chicken
+item.spawn_egg.entity.nate:magma_chicken.name=Spawn Magma Chicken
+item.nate:super_sword=Super Sword

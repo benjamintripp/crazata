@@ -150,3 +150,7 @@ A very tall chicken
 __Jumping Cow__
 A green cow that loves to jump
 ![Jumping Cow](screenshots/jumping_cow.png)
+
+__Magma Chicken__
+A chicken made of magma that shoots fire. Thanks to Brendan for the design.
+![Magma Chicken](screenshots/magma_chicken.png)
