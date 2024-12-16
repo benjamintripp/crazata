@@ -8,7 +8,7 @@
 		"pattern": [" A ", " I ", " A "],
 		"key": {
 			"A": {
-				"item": "minecraft:golden_ingot"
+				"item": "minecraft:gold_ingot"
 			},
 			"I": {
 				"item": "minecraft:diamond_sword"

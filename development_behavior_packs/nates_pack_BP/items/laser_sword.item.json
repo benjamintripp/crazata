@@ -1,0 +1,98 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nate:laser_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "laser_sword"
+			},
+			"minecraft:damage": 20,
+			"minecraft:digger": {
+				"destroy_speeds": [
+					{
+						"speed": 20,
+						"block": {
+							"tags": "query.any_tag('wood')"
+						}
+					},
+					{
+						"speed": 20,
+						"block": {
+							"tags": "query.any_tag('stone')"
+						}
+					},
+					{
+						"speed": 15,
+						"block": {
+							"tags": "query.any_tag('metal')"
+						}
+					},
+					{
+						"speed": 25,
+						"block": {
+							"tags": "query.any_tag('dirt')"
+						}
+					},
+					{
+						"speed": 20,
+						"block": {
+							"tags": "query.any_tag('sand')"
+						}
+					},
+					{
+						"speed": 20,
+						"block": {
+							"tags": "query.any_tag('gravel')"
+						}
+					},
+					{
+						"speed": 15,
+						"block": {
+							"tags": "query.any_tag('grass')"
+						}
+					},
+					{
+						"speed": 30,
+						"block": {
+							"tags": "query.any_tag('snow')"
+						}
+					}
+				]
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 14
+			},
+			"minecraft:durability": {
+				"max_durability": 1575
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["amethyst_shard"],
+						"repair_amount": 393
+					}
+				]
+			},
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation_modifier": 0.6,
+				"can_always_eat": true,
+				"using_converts_to": "nate:laser_sword_handle"
+			},
+			"minecraft:use_modifiers": {
+				"movement_modifier": 0.32,
+				"use_duration": 0.1
+			},
+			"minecraft:use_animation": "none"
+		}
+	}
+}

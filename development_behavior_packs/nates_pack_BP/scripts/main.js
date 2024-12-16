@@ -181,6 +181,43 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
         },
     });
     
+    //for chicken wand
+    initEvent.itemComponentRegistry.registerCustomComponent("nate:chickenify", {
+        onHitEntity(arg) {
+            const hitEntity = arg.hitEntity;
+
+            // Check if the hit entity is a player, skip if true
+            if (hitEntity.typeId === "minecraft:player") {
+                return;
+            }
+
+            // Get the location and rotation of the hit entity
+            const location = hitEntity.location;
+            const viewDirection = hitEntity.getRotation();
+
+            // Get the name tag or type of the hit entity for naming the chicken
+            const nameTag = hitEntity.nameTag;
+
+            const dimension = hitEntity.dimension;
+
+            hitEntity.remove();
+
+            
+            // Spawn a chicken in the same location
+            const chicken = dimension.spawnEntity("minecraft:chicken", location);
+
+            if (chicken) {
+                // Set the chicken's name to the hit entity's name
+                if (nameTag) {
+                    chicken.nameTag = nameTag;
+                }
+            
+                // Set the chicken's rotation to match the hit entity
+                chicken.setRotation(viewDirection);
+            }
+        },
+    });
+    
 
     initEvent.blockComponentRegistry.registerCustomComponent("nate:bounce_block", {
 
@@ -246,9 +283,29 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
         },
     });
     
+    //for speedy sword
+    initEvent.itemComponentRegistry.registerCustomComponent("nate:speedy", {
+        onHitEntity(arg) {
+            const speed = arg.hitEntity.getComponent(EntityComponentTypes.Movement).currentValue
+            arg.hitEntity.getComponent(EntityComponentTypes.Movement).setCurrentValue(speed * 2)
+        },
+    });
 
+    //for slow sword
+    initEvent.itemComponentRegistry.registerCustomComponent("nate:slow", {
+        onHitEntity(arg) {
+            const speed = arg.hitEntity.getComponent(EntityComponentTypes.Movement).currentValue
+            arg.hitEntity.getComponent(EntityComponentTypes.Movement).setCurrentValue(speed / 2)
+        },
+    });
 
-
+        //for stop sword
+        initEvent.itemComponentRegistry.registerCustomComponent("nate:stop", {
+            onHitEntity(arg) {
+                arg.hitEntity.getComponent(EntityComponentTypes.Movement).setCurrentValue(0)
+            },
+        });
+    
 
 
 });

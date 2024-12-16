@@ -1,5 +1,23 @@
 {
 	"texture_data": {
+		"slow_sword": {
+			"textures": "textures/items/slow_sword.png"
+		},
+		"stop_sign": {
+			"textures": "textures/items/stop_sign.png"
+		},
+		"speedy_sword": {
+			"textures": "textures/items/speedy_sword.png"
+		},
+		"laser_sword_handle": {
+			"textures": "textures/items/laser_sword_handle.png"
+		},
+		"laser_sword": {
+			"textures": "textures/items/laser_sword.png"
+		},
+		"chicken_wand": {
+			"textures": "textures/items/chicken_wand.png"
+		},
 		"super_sword": {
 			"textures": "textures/items/super_sword.png"
 		},

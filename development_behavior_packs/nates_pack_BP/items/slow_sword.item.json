@@ -1,0 +1,34 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nate:slow_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "slow_sword",
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:hand_equipped": true,
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 14
+			},
+			"minecraft:durability": {
+				"max_durability": 2100
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["minecraft:soul_sand"],
+						"repair_amount": 525
+					}
+				]
+			},
+			"minecraft:custom_components": ["nate:slow"]
+		}
+	}
+}

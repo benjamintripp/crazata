@@ -29,3 +29,6 @@
 - Brick Sword - A sword made of bricks that can shoot bricks
 - Nether Sword - Teleport your enemies to the Nether with one hit
 - Super Sword
+- Laser Sword
+- Speedy Sword - Doubles the speed of any mob you hit
+- Slow Sword - Halves the speed of any mob you hit
