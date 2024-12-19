@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nate:nether_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "nether_sword",
+			"minecraft:damage": 1,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:hand_equipped": true,
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 14
+			},
+			"minecraft:durability": {
+				"max_durability": 2030
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["obsidian"],
+						"repair_amount": 507
+					}
+				]
+			},
+			"minecraft:custom_components": ["nate:netherzap"]
+		}
+	}
+}

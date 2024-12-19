@@ -26,3 +26,9 @@
 - Bouncy Sword - Bounces mobs straight up
 - Baseball Bat - Launches mods far away
 - Medicinal Sword - Heal your friends by hitting them on the head
+- Brick Sword - A sword made of bricks that can shoot bricks
+- Nether Sword - Teleport your enemies to the Nether with one hit
+- Super Sword
+- Laser Sword
+- Speedy Sword - Doubles the speed of any mob you hit
+- Slow Sword - Halves the speed of any mob you hit

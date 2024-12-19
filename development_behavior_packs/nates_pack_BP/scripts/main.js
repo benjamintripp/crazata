@@ -28,7 +28,7 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
         // Calculate the spawn position roughly at the sword's hand position
         const spawnPosition = {
             x: playerPosition.x + lookDirection.x * 0.8, // Slightly in front of the player
-            y: playerPosition.y + 1.2,  // Approximate hand level
+            y: playerPosition.y + 1.3,  // Approximate hand level
             z: playerPosition.z + lookDirection.z * 0.8
         };
     
@@ -58,6 +58,13 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
         onUse(arg) {
             const player = arg.source;
             shootProjectile(player,"minecraft:egg", 2)
+        }
+    });
+
+    initEvent.itemComponentRegistry.registerCustomComponent("nate:shoot_brick", {
+        onUse(arg) {
+            const player = arg.source;
+            shootProjectile(player,"nate:brick", 1.5)
         }
     });
 
@@ -174,7 +181,131 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
         },
     });
     
+    //for chicken wand
+    initEvent.itemComponentRegistry.registerCustomComponent("nate:chickenify", {
+        onHitEntity(arg) {
+            const hitEntity = arg.hitEntity;
 
+            // Check if the hit entity is a player, skip if true
+            if (hitEntity.typeId === "minecraft:player") {
+                return;
+            }
+
+            // Get the location and rotation of the hit entity
+            const location = hitEntity.location;
+            const viewDirection = hitEntity.getRotation();
+
+            // Get the name tag or type of the hit entity for naming the chicken
+            const nameTag = hitEntity.nameTag;
+
+            const dimension = hitEntity.dimension;
+
+            hitEntity.remove();
+
+            
+            // Spawn a chicken in the same location
+            const chicken = dimension.spawnEntity("minecraft:chicken", location);
+
+            if (chicken) {
+                // Set the chicken's name to the hit entity's name
+                if (nameTag) {
+                    chicken.nameTag = nameTag;
+                }
+            
+                // Set the chicken's rotation to match the hit entity
+                chicken.setRotation(viewDirection);
+            }
+        },
+    });
+    
+
+    initEvent.blockComponentRegistry.registerCustomComponent("nate:bounce_block", {
+
+        onStepOn(arg) {
+            if (arg.entity.hasComponent("minecraft:health"))
+            {
+                arg.entity.applyKnockback(0,0,0,3)
+            }
+
+        }
+    });
+
+    initEvent.blockComponentRegistry.registerCustomComponent("nate:speed_boost", {
+
+        onStepOn(arg) {
+            if (arg.entity.typeId == "minecraft:player")
+            {   
+                arg.entity.sendMessage("Speed Boost. Toggle sprint/walk to disable.");
+                const speed = arg.entity.getComponent(EntityComponentTypes.Movement).currentValue
+                arg.entity.getComponent(EntityComponentTypes.Movement).setCurrentValue(speed * 2)
+            }
+
+        }
+    });
+
+    //for nether sword
+    initEvent.itemComponentRegistry.registerCustomComponent("nate:netherzap", {
+        onHitEntity(arg) {
+            
+            const currentDimension = arg.hitEntity.dimension.id;
+            const currLocation =  arg.hitEntity.location;
+            var destX;
+            var destY;
+            var destZ;
+            var destDimension;
+            // Ensure the current dimension is the Overworld
+            if (currentDimension === "minecraft:overworld") {
+
+                destX = Math.floor(currLocation.x / 8);
+                 destY = currLocation.y; // Keep Y coordinate unchanged
+                 destZ = Math.floor(currLocation.z / 8);
+                
+                 destDimension = world.getDimension("minecraft:nether");
+
+            } else if (currentDimension === "minecraft:nether") {
+
+                destX = Math.floor(currLocation.x) * 8;
+                 destY = currLocation.y; // Keep Y coordinate unchanged
+                 destZ = Math.floor(currLocation.z) * 8;
+                
+                 destDimension = world.getDimension("minecraft:overworld");
+
+            }
+
+            if (currentDimension !== "minecraft:the_end") {
+                arg.hitEntity.teleport(
+                    { x: destX, y: destY, z: destZ },
+                    { dimension: destDimension }
+                );
+            }
+
+
+        },
+    });
+    
+    //for speedy sword
+    initEvent.itemComponentRegistry.registerCustomComponent("nate:speedy", {
+        onHitEntity(arg) {
+            const speed = arg.hitEntity.getComponent(EntityComponentTypes.Movement).currentValue
+            arg.hitEntity.getComponent(EntityComponentTypes.Movement).setCurrentValue(speed * 2)
+        },
+    });
+
+    //for slow sword
+    initEvent.itemComponentRegistry.registerCustomComponent("nate:slow", {
+        onHitEntity(arg) {
+            const speed = arg.hitEntity.getComponent(EntityComponentTypes.Movement).currentValue
+            arg.hitEntity.getComponent(EntityComponentTypes.Movement).setCurrentValue(speed / 2)
+        },
+    });
+
+        //for stop sword
+        initEvent.itemComponentRegistry.registerCustomComponent("nate:stop", {
+            onHitEntity(arg) {
+                arg.hitEntity.getComponent(EntityComponentTypes.Movement).setCurrentValue(0)
+            },
+        });
+    
 
 
 });

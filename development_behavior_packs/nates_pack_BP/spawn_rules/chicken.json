@@ -26,24 +26,28 @@
             "weight": 1
           },
           {
-            "weight": 20,
+            "weight": 17,
             "entity_type": "nate:mega_chicken"
           },
           {
-            "weight": 20,
+            "weight": 17,
             "entity_type": "nate:micro_chicken"
           },
           {
-            "weight": 20,
+            "weight": 17,
             "entity_type": "nate:tnt_chicken"
           },
           {
-            "weight": 20,
+            "weight": 16,
             "entity_type": "nate:fast_chicken"
           },
           {
-            "weight": 19,
+            "weight": 16,
             "entity_type": "nate:spinning_chicken"
+          },
+          {
+            "weight": 16,
+            "entity_type": "nate:tall_chicken"
           }
         ],
         "minecraft:biome_filter": {

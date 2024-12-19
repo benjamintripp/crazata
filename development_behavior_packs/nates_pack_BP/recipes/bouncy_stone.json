@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nate:bouncy_stone"
+		},
+		"tags": ["crafting_table"],
+		"pattern": ["M", "S"],
+		"key": {
+			"M": {
+				"item": "minecraft:slime_ball"
+			},
+			"S": {
+				"item": "minecraft:cobblestone"
+			}
+		},
+		"result": {
+			"item": "nate:bouncy_stone"
+		}
+	}
+}

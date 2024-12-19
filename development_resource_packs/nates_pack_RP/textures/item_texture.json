@@ -1,5 +1,32 @@
 {
 	"texture_data": {
+		"slow_sword": {
+			"textures": "textures/items/slow_sword.png"
+		},
+		"stop_sign": {
+			"textures": "textures/items/stop_sign.png"
+		},
+		"speedy_sword": {
+			"textures": "textures/items/speedy_sword.png"
+		},
+		"laser_sword_handle": {
+			"textures": "textures/items/laser_sword_handle.png"
+		},
+		"laser_sword": {
+			"textures": "textures/items/laser_sword.png"
+		},
+		"chicken_wand": {
+			"textures": "textures/items/chicken_wand.png"
+		},
+		"super_sword": {
+			"textures": "textures/items/super_sword.png"
+		},
+		"nether_sword": {
+			"textures": "textures/items/nether_sword.png"
+		},
+		"brick_sword": {
+			"textures": "textures/items/brick_sword.png"
+		},
 		"medicinal_sword": {
 			"textures": "textures/items/medicinal_sword.png"
 		},
@@ -167,6 +194,9 @@
 		},
 		"steel": {
 			"textures": ["textures/items/steel"]
+		},
+		"brick": {
+			"textures": ["textures/items/brick"]
 		}
 	},
 	"resource_pack_name": "vanilla",

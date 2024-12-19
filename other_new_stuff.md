@@ -34,3 +34,7 @@ __Plasma Stone__
 
 ![Plasma Stone](screenshots/plasma_stone.png)
 
+__Chicken Wand__
+
+Turns anything you hit into a chicken
+![Friend Finder](screenshots/chicken_wand.png)

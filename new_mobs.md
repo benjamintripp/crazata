@@ -142,3 +142,15 @@ A long horse you can ride with a buddy
 __Giant Golemn__
 A giant golemn you can ride
 ![Giant Golemn](screenshots/giant_golemn.png)
+
+__Tall Chicken__
+A very tall chicken
+![Tall Chicken](screenshots/tall_chicken.png)
+
+__Jumping Cow__
+A green cow that loves to jump
+![Jumping Cow](screenshots/jumping_cow.png)
+
+__Magma Chicken__
+A chicken made of magma that shoots fire. Thanks to Brendan for the design.
+![Magma Chicken](screenshots/magma_chicken.png)

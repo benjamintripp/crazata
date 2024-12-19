@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nate:brick_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "brick_sword",
+			"minecraft:damage": 10,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:hand_equipped": true,
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 22
+			},
+			"minecraft:durability": {
+				"max_durability": 948
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["brick"],
+						"repair_amount": 237
+					}
+				]
+			},
+			"minecraft:custom_components": ["nate:shoot_brick"]
+		}
+	}
+}
