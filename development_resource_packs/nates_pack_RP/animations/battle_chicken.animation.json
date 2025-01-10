@@ -1,0 +1,55 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.battle_chicken.baby_transform": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"scale": 2
+				}
+			}
+		},
+		"animation.battle_chicken.general": {
+			"loop": true,
+			"bones": {
+				"wing0": {
+					"rotation": [0, 0, "variable.wing_flap - this"]
+				},
+				"wing1": {
+					"rotation": [0, 0, "-variable.wing_flap - this"]
+				}
+			}
+		},
+		"animation.battle_chicken.move": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"leg0": {
+					"rotation": ["math.cos(query.anim_time * 38.17) *  80.0", 0, 0]
+				},
+				"leg1": {
+					"rotation": ["math.cos(query.anim_time * 38.17) * -80.0", 0, 0]
+				}
+			}
+		},
+		"animation.battle_chicken.attack": {
+			"loop": true,
+			"bones": {
+				"wing0": {
+					"rotation": [
+						"-68.75 * math.sin(variable.attack_time * 180.0) + 22.92 * (math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0))",
+						"5.73 - math.sin(variable.attack_time * 180.0) * 34.38 - this",
+						"-this"
+					]
+				},
+				"wing1": {
+					"rotation": [
+						"-68.75 * math.sin(variable.attack_time * 180.0) + 22.92 * (math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0))",
+						"-5.73 + math.sin(variable.attack_time * 180.0) * 34.38 - this",
+						"-this"
+					]
+				}
+			}
+		}
+	}
+}

@@ -139,3 +139,5 @@ item.nate:laser_sword_handle=Laser Sword Handle
 item.nate:speedy_sword=Speedy Sword
 item.nate:stop_sign=Stop Sign
 item.nate:slow_sword=Slow Sword
+entity.nate:battle_chicken.name=Battle Chicken
+item.spawn_egg.entity.nate:battle_chicken.name=Spawn Battle Chicken

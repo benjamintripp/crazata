@@ -1,0 +1,145 @@
+{
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+			{
+				"type": "item",
+				"name": "nate:arrow_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:baseball_bat",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:bee_blade",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:bouncy_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:bread_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:brick_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:chicken_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:crazata_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:gold_katana",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:golden_ender_dragon_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:laser_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:master_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:medicinal_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:nether_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:one_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:pow_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:power_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:powy",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:rainbow_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:sapphire_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:slow_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:speedy_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:steel_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:super_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:thunder_blade",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:ultra_sword",
+				"weight": 1
+			  },
+			  {
+				"type": "item",
+				"name": "nate:warden_sword",
+				"weight": 1
+			  }
+		]
+	  }
+	]
+  }
+  

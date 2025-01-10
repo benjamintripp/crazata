@@ -154,3 +154,7 @@ A green cow that loves to jump
 __Magma Chicken__
 A chicken made of magma that shoots fire. Thanks to Brendan for the design.
 ![Magma Chicken](screenshots/magma_chicken.png)
+
+__Battle Chicken__
+A chicken ready for battle with a helmet and a sword
+![Battle Chicken](screenshots/battle_chicken.png)
