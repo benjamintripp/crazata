@@ -32,3 +32,4 @@
 - Laser Sword
 - Speedy Sword - Doubles the speed of any mob you hit
 - Slow Sword - Halves the speed of any mob you hit
+- Blaze Sword - Sets mobs on fire

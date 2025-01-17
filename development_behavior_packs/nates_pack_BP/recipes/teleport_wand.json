@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nate:teleport_wand"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            " S ",
+            " E ",
+            "   "
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "E": {
+                "item": "minecraft:ender_pearl"
+            }
+        },
+        "result": {
+            "item": "nate:teleport_wand"
+        }
+    }
+}

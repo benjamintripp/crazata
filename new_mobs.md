@@ -158,3 +158,7 @@ A chicken made of magma that shoots fire. Thanks to Brendan for the design.
 __Battle Chicken__
 A chicken ready for battle with a helmet and a sword
 ![Battle Chicken](screenshots/battle_chicken.png)
+
+__Infinite Chicken__
+Kill it and two chickens take it's place
+![Infinite Chicken](screenshots/infinite_chicken.png)

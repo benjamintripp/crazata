@@ -1,0 +1,45 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nate:infinite_chicken",
+			"min_engine_version": "1.12.0",
+			"materials": {
+				"default": "entity_emissive_alpha",
+				"legs": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/infinite_chicken"
+			},
+			"geometry": {
+				"default": "geometry.infinite_chicken"
+			},
+			"animations": {
+				"move": "animation.infinite_chicken.move",
+				"general": "animation.infinite_chicken.general",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.infinite_chicken.baby_transform"
+			},
+			"scripts": {
+				"animate": [
+					"general",
+					{
+						"move": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"particle_effects": {
+				"spell": "minecraft:evoker_spell"
+			  },
+			"render_controllers": ["controller.render.chicken"],
+			"spawn_egg": {
+				"base_color": "#0af84a",
+				"overlay_color": "#e1bef4"
+			}
+		}
+	}
+}

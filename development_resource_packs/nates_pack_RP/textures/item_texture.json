@@ -1,5 +1,11 @@
 {
 	"texture_data": {
+		"blaze_sword": {
+			"textures": "textures/items/blaze_sword.png"
+		},
+		"teleport_wand": {
+			"textures": "textures/items/teleport_wand.png"
+		},
 		"slow_sword": {
 			"textures": "textures/items/slow_sword.png"
 		},

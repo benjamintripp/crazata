@@ -40,11 +40,6 @@
 			  },
 			  {
 				"type": "item",
-				"name": "nate:crazata_sword",
-				"weight": 1
-			  },
-			  {
-				"type": "item",
 				"name": "nate:gold_katana",
 				"weight": 1
 			  },
@@ -66,11 +61,6 @@
 			  {
 				"type": "item",
 				"name": "nate:medicinal_sword",
-				"weight": 1
-			  },
-			  {
-				"type": "item",
-				"name": "nate:nether_sword",
 				"weight": 1
 			  },
 			  {
