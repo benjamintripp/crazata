@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"bone_sword": {
+			"textures": "textures/items/bone_sword.png"
+		},
 		"blaze_sword": {
 			"textures": "textures/items/blaze_sword.png"
 		},

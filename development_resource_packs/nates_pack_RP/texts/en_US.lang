@@ -145,3 +145,5 @@ entity.nate:infinite_chicken.name=Infinite Chicken
 item.spawn_egg.entity.nate:infinite_chicken.name=Spawn Infinite Chicken
 item.nate:teleport_wand=Teleport Wand
 item.nate:blaze_sword=Blaze Sword
+item.nate:bone_sword=Bone Sword
+tile.nate:ender_steel_ore.name=Ender Steel Ore

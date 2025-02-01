@@ -4,6 +4,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"ender_steel_ore": {
+			"textures": "textures/blocks/ender_steel_ore.png"
+		},
 		"speed_boost": {
 			"textures": "textures/blocks/speed_boost.png"
 		},

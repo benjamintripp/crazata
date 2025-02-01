@@ -38,3 +38,7 @@ __Chicken Wand__
 
 Turns anything you hit into a chicken
 ![Friend Finder](screenshots/chicken_wand.png)
+
+__Ender Steel Ore__
+
+![Ender Steel Ore](screenshots/ender_steel_ore.png)

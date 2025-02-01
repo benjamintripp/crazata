@@ -1,4 +1,4 @@
-import { world, EntityComponentTypes } from "@minecraft/server";
+import { world, EntityComponentTypes, system } from "@minecraft/server";
 
 world.beforeEvents.worldInitialize.subscribe((initEvent) => {
 
@@ -350,6 +350,40 @@ world.beforeEvents.worldInitialize.subscribe((initEvent) => {
         onHitEntity(arg) {
             arg.hitEntity.setOnFire(1200)
         }
+    });
+
+    initEvent.itemComponentRegistry.registerCustomComponent("nate:skeletonify", {
+        onHitEntity(arg) {
+            const hitEntity = arg.hitEntity;
+
+            // Check if the hit entity is a player, skip if true
+            if (hitEntity.typeId === "minecraft:player" || hitEntity.typeId === "minecraft:skeleton") {
+                return;
+            }
+
+            const location = hitEntity.location;
+            const viewDirection = hitEntity.getRotation();
+
+            const nameTag = hitEntity.nameTag;
+            const dimension = hitEntity.dimension;
+
+            hitEntity.remove();
+            var skeleton;
+            if (hitEntity.typeId === "minecraft:horse") {
+                skeleton = dimension.spawnEntity("minecraft:skeleton_horse", location);
+            } else {
+                skeleton = dimension.spawnEntity("minecraft:skeleton", location);
+            }
+            
+            if (skeleton) {
+                if (nameTag) {
+                    skeleton.nameTag = nameTag;
+                }
+
+                skeleton.setRotation(viewDirection);
+
+            }
+        },
     });
 
 });

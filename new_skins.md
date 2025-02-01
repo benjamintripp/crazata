@@ -26,3 +26,5 @@ __Tree__
 __Exercise__
 ![Exercise](screenshots/exercise_skin.png)
 
+__Mr. Wierd Dude__
+![Mr. Wierd Dude](screenshots/mr_wierd_dude.png)

@@ -49,6 +49,12 @@
         "geometry": "geometry.humanoid.custom",
         "texture": "tree_skin.png",
         "type": "free"
+      },
+      {
+        "localization_name": "Mr. Wierd Dude",
+        "geometry": "geometry.humanoid.custom",
+        "texture": "mr_wierd_dude.png",
+        "type": "free"
       }
     ]
   }

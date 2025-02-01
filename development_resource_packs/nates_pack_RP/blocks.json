@@ -1,4 +1,7 @@
 {
+	"ender_steel_ore": {
+		"sound": "stone"
+	},
 	"speed_boost": {
 		"sound": "metal"
 	},
